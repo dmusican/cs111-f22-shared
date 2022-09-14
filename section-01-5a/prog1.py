@@ -1,3 +1,4 @@
+# Python will ignore this. Go Knights!
 print("Hello, world, section 01")
 print("HI FRIEND!")
 print(3 + 5)
