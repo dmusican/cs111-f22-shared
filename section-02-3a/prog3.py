@@ -1,3 +1,5 @@
+print("abc" + "def")
+
 x = input("What is first number? ")
 y = input("What is second number? ")
 print("x is", x)
