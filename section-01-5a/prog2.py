@@ -7,5 +7,5 @@ print("Let's have a \"conversation\" today.")
 
 
 
-print("Line 1\nLine 2")
+print("Line 1\nLine\t2")
 
