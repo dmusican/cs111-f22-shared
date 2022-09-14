@@ -1,2 +1,2 @@
-name = input("What is your name? ")
-print("Your name is", name)
+daname = input("What is your name? ")
+print("Your name is", daname)
