@@ -8,3 +8,6 @@ a = 9
 b = 7
 print("Wait, add should work", a+b)
 print("Sum is", x+y)
+
+print(type("h"))
+print(type(3))
