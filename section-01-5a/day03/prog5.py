@@ -1,2 +1,2 @@
 for number in range(4, 14):
-    print(number)
+    print(number % 4)
