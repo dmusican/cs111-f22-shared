@@ -1,4 +1,4 @@
 x = 9
-y = x
+x = y
 x = x + 1
 print(x, y)
