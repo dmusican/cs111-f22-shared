@@ -2,8 +2,8 @@
 #    print(i)
     
 
-for thingybob in [8, 1, 9, 3]:
-    print(thingybob * 2)
+#for thingybob in [8, 1, 9, 3]:
+#    print(thingybob * 2)
 
 for value in range(6):
     print(value)
