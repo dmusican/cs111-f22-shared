@@ -1,6 +1,7 @@
 from graphics import *
 
-window = GraphWin("Hey", 500, 600)
+size = int(input("How big? "))
+window = GraphWin("Hey", size, size)
 window.setBackground('white')
 
 house = Rectangle(Point(100, 250), Point(400, 480))
