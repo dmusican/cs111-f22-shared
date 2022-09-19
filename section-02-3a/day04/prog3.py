@@ -8,7 +8,7 @@ margin = size//6
 rect = Rectangle(Point(margin, margin),
                  Point(5*margin, 5*margin))
 rect.setFill('blue')
-#rect.setOutline('red')
+rect.setOutline('red')
 rect.draw(window)
 
 keyPress = input('Press enter:')
