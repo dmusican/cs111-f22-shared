@@ -1,7 +1,7 @@
 # Automatically resize!
 from graphics import *
 size = int(input("How big should the window be? "))
-window = GraphWin("Hey", 200, 300)
+window = GraphWin("Hey", size, size)
 window.setBackground('white')
 
 rect = Rectangle(Point(100, 150), Point(50, 75))
