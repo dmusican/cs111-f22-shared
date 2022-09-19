@@ -5,7 +5,8 @@ window = GraphWin("Hey", size, size)
 window.setBackground('white')
 
 margin = size//6
-rect = Rectangle(Point(100, 150), Point(50, 75))
+rect = Rectangle(Point(margin, margin),
+                 Point(5*margin, 5*margin))
 rect.setFill('blue')
 rect.setOutline('red')
 rect.draw(window)
