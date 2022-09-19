@@ -4,7 +4,9 @@ size = int(input("How big? "))
 window = GraphWin("Hey", size, size)
 window.setBackground('white')
 
-house = Rectangle(Point(100, 250), Point(400, 480))
+margin = size//6
+house = Rectangle(Point(margin, margin),
+                  Point(5*margin, 5*margin))
 house.draw(window)
 house.setFill('blue')
 house.setOutline('red')
