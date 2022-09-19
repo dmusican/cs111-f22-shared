@@ -1,3 +1,3 @@
 for number in range(5):
-    print(number)
+    print(number, end="ZOOKS")
     print("...")
