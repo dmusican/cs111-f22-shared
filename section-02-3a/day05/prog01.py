@@ -19,6 +19,7 @@ for i in range(100):
     sleep(0.1)
     x = x + 10
     y = y + 20
+    circ = Circle(Point(x,y), 20)
     circ.draw(win)
 
 keyEntered = input("Enter something: ")
