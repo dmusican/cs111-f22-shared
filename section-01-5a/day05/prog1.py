@@ -7,6 +7,7 @@ win = GraphWin("Game!", windowWidth, windowHeight)
 win.setBackground('white')
 
 location = win.getMouse()
+print(type(location))
 x = location.getX()
 y = location.getY()
 radius = 30
