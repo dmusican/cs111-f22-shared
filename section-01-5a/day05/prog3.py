@@ -11,8 +11,8 @@ x = 20
 y = 30
 raddddddius = 30  # dumb name to make a point
 
-shiftx = 10
-shifty = 20
+shiftx = 100
+shifty = 0
 for i in range(4):
     circ = Circle(Point(x,y), raddddddius)
     circ.draw(win)
