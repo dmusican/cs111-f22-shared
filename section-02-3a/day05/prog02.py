@@ -12,11 +12,10 @@ x = location.getX()
 y = location.getY()
 
 # Move the ball in a loop
-for i in range(100):
-    circ = Circle(Point(x,y), 20)
+for i in range(4):
+    circ = Rectangle(Point(x,y), 20, 30)
     circ.draw(win)
     sleep(0.1)
-    x = (x + 10) % windowWidth
-    y = (y + 20) % windowHeight
+    x = (x + 80)
 
 keyEntered = input("Enter something: ")
