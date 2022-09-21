@@ -16,6 +16,6 @@ for i in range(4):
     circ = Rectangle(Point(x,y), Point(20, 30))
     circ.draw(win)
     sleep(0.1)
-    x = (x + 80)
+    x = (x + 100)
 
 keyEntered = input("Enter something: ")
