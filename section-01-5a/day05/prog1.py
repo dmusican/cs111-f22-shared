@@ -17,7 +17,7 @@ circ.draw(win)
 
 shiftx = 10
 shifty = 20
-for i in range(5)
+for i in range(5):
     sleep(0.1)
     circ.move(shiftx, shifty)
 
