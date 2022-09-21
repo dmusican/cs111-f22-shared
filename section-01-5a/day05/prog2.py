@@ -22,6 +22,7 @@ for i in range(100):
     circ.undraw()
     x = (x + shiftx) % windowWidth
     y = (y + shifty) % windowHeight
+    print(x,y)
 
 
 keyPressed = input('Type something: ')
