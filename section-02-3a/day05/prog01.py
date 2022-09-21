@@ -1,5 +1,6 @@
 # Ball flying around a screen
 from graphics import *
+from time import *
 windowWidth = 500
 windowHeight = 600
 win = GraphWin("Game!", windowWidth, windowHeight)
