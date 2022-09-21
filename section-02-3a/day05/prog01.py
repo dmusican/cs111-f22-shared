@@ -10,8 +10,6 @@ win.setBackground('white')
 location = win.getMouse()
 x = location.getX()
 y = location.getY()
-circ = Circle(Point(x,y), 20)
-circ.draw(win)
 
 # Move the ball in a loop
 for i in range(100):
