@@ -20,8 +20,8 @@ for i in range(100):
     circ.draw(win)
     sleep(0.1)
     circ.undraw()
-    x = x + shiftx
-    y = y + shifty
+    x = (x + shiftx) % windowWidth
+    y = (y + shifty) % windowHeight
 
 
 keyPressed = input('Type something: ')
