@@ -17,7 +17,7 @@ for i in range(100):
     circ.draw(win)
     sleep(0.1)
     circ.undraw()
-    x = x + 10
-    y = y + 20
+    x = (x + 10) % windowWidth
+    y = (y + 20) % windowHeight
 
 keyEntered = input("Enter something: ")
