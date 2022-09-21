@@ -15,7 +15,7 @@ circ.draw(win)
 
 # Move the ball in a loop
 for i in range(100):
-    circ.undraw(win)
+    circ.undraw()
     sleep(0.1)
     x = x + 10
     y = y + 20
