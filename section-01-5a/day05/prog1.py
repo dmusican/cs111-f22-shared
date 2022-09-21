@@ -15,9 +15,9 @@ raddddddius = 30  # dumb name to make a point
 circ = Circle(Point(x,y), raddddddius)
 circ.draw(win)
 
+shiftx = 10
+shifty = 20
 for i in range(100):
-    shiftx = 10
-    shifty = 20
     sleep(0.1)
     circ.move(shiftx, shifty)
 
