@@ -11,8 +11,7 @@ x = location.getX()
 y = location.getY()
 radius = 30
 circ = Circle(Point(x,y), radius)
+circ.draw(win)
 
-
-print(location.getX(), location.getY())
 
 keyPressed = input('Type something: ')
