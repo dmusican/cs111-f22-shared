@@ -13,7 +13,7 @@ circ = Circle(Point(x,y), 20)
 circ.draw(win)
 
 # Move the ball in a loop
-for i in range(100):
+for i in range(5):
     circ.move(10, 20)
 
 keyEntered = input("Enter something: ")
