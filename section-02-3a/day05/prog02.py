@@ -13,7 +13,7 @@ y = location.getY()
 
 # Move the ball in a loop
 for i in range(4):
-    circ = Rectangle(Point(x,y), 20, 30)
+    circ = Rectangle(Point(x,y), Point(20, 30))
     circ.draw(win)
     sleep(0.1)
     x = (x + 80)
