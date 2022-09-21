@@ -15,11 +15,11 @@ circ.draw(win)
 
 # Move the ball in a loop
 for i in range(100):
-    circ.undraw()
-    sleep(0.1)
-    x = x + 10
-    y = y + 20
     circ = Circle(Point(x,y), 20)
     circ.draw(win)
+    sleep(0.1)
+    circ.undraw()
+    x = x + 10
+    y = y + 20
 
 keyEntered = input("Enter something: ")
