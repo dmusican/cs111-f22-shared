@@ -7,12 +7,13 @@ win.setBackground('white')
 
 # Have user click in window to draw a ball
 location = win.getMouse()
-print("Got it)")
 x = location.getX()
 y = location.getY()
 circ = Circle(Point(x,y), 20)
 circ.draw(win)
 
-
+# Move the ball in a loop
+for i in range(100):
+    circ.move(10, 20)
 
 keyEntered = input("Enter something: ")
