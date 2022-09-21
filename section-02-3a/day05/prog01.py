@@ -5,3 +5,5 @@ windowHeight = 600
 win = GraphWin("Game!", windowWidth, windowHeight)
 win.setBackground('white')
 
+
+keyEntered = input("Enter something: ")
