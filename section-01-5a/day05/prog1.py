@@ -11,7 +11,7 @@ location = win.getMouse()
 print(type(location))
 x = location.getX()
 y = location.getY()
-raddddddius = 30
+raddddddius = 30  # dumb name to make a point
 circ = Circle(Point(x,y), raddddddius)
 circ.draw(win)
 
