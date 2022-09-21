@@ -16,7 +16,6 @@ for i in range(100):
     circ = Circle(Point(x,y), 20)
     circ.draw(win)
     sleep(0.1)
-    circ.undraw()
     x = (x + 10) % windowWidth
     y = (y + 20) % windowHeight
 
