@@ -11,8 +11,8 @@ location = win.getMouse()
 print(type(location))
 x = location.getX()
 y = location.getY()
-radius = 30
-circ = Circle(Point(x,y), radius)
+raddddddius = 30
+circ = Circle(Point(x,y), raddddddius)
 circ.draw(win)
 
 for i in range(100):
