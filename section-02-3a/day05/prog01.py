@@ -16,6 +16,6 @@ circ.draw(win)
 # Move the ball in a loop
 for i in range(100):
     circ.move(10, 20)
-    sleep(0.5)
+    sleep(0.1)
 
 keyEntered = input("Enter something: ")
