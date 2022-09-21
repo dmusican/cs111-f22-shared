@@ -14,7 +14,7 @@ radius = 30
 circ = Circle(Point(x,y), radius)
 circ.draw(win)
 
-for i in range(100):
+for i in range(5):
     shiftx = 10
     shifty = 20
     circ.move(shiftx, shifty)
