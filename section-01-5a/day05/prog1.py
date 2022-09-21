@@ -7,5 +7,6 @@ win = GraphWin("Game!", windowWidth, windowHeight)
 win.setBackground('white')
 
 location = win.getMouse()
+print(location.getX(), location.getY())
 
 keyPressed = input('Type something: ')
