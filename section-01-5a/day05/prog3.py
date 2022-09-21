@@ -16,7 +16,7 @@ shifty = 0
 for i in range(4):
     circ = Circle(Point(x,y), raddddddius)
     circ.draw(win)
-    sleep(1)
+    #sleep(1)
     #circ.undraw()
     x = (x + shiftx) % windowWidth
     y = (y + shifty) % windowHeight
