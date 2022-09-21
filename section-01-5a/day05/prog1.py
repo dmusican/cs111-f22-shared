@@ -1,5 +1,6 @@
 # A ball that moves around the screen
 from graphics import *
+from time import *
 
 windowWidth = 500
 windowHeight = 600
