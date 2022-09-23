@@ -7,5 +7,5 @@ print("last:", things[-1])
 print("middleish:", things[1:3])
 
 print("It's coming....")
-for something in things:
+for something in things[1:3]:
     print(something)
