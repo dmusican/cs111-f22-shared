@@ -7,6 +7,8 @@ print(word[2:])
 # last letter
 print(word[len(word)-1])
 print(word[-1])
+newWord = word + "abcde"
+print(newWord)
 
 
 
