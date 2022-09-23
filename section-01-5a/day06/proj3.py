@@ -4,5 +4,6 @@ text = infile.read()
 #print(repr(text))
 words = text.split()
 for word in words:
-    print(word)
+    piglatin = word[1:] + word[0] + "ay"
+    print(piglatin)
 
