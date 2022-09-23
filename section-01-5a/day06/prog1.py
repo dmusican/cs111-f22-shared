@@ -7,4 +7,6 @@ print("last:", word[len(word)-1])
 print("last:", word[-1])
 newWord = word + "abcde"
 print(newWord)
+for something in word:
+    print("a letter:", something)
 
