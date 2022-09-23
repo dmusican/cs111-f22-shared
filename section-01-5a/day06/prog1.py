@@ -1,2 +1,2 @@
 word = "carleton"
-print(word[0])
+print("first", word[0])
