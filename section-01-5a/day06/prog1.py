@@ -13,4 +13,5 @@ for something in word:
 #word[1] = "x"
 
 word = "cxrleton"
+print(word)
 
