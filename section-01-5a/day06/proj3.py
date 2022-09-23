@@ -3,4 +3,6 @@ text = infile.read()
 #print(text[:500])
 #print(repr(text))
 words = text.split()
-print(words)
+for word in words:
+    print(word)
+
