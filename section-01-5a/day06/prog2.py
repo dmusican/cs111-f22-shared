@@ -5,3 +5,7 @@ print(type(word))
 print("first:", things[0])
 print("last:", things[-1])
 print("middleish:", things[1:3])
+
+print("It's coming....")
+for something in things:
+    print(something)
