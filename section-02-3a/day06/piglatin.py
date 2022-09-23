@@ -4,4 +4,5 @@ text = infile.read()
 
 # Get a list of all the words in that string
 words = text.split()
-print(words)
+for word in words:
+    print(word)
