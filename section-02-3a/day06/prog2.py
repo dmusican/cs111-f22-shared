@@ -18,6 +18,11 @@ print(myList)
 print(myList[0]) # first item
 print(myList[-1]) # last
 print(myList[1:3])
+print(len(myList))
+
+for aThing in myList:
+    print(aThing)
+
 
 
 
