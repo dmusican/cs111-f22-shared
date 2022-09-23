@@ -10,3 +10,5 @@ print(newWord)
 for something in word:
     print("a letter:", something)
 
+word[1] = "x"
+
