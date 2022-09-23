@@ -5,4 +5,6 @@ for something in word:
 # Get position
 print(word.index("a"))
 
-word[1] = "x"
+#word[1] = "x"
+partOfIt = word[:4]
+print(partOfIt)
