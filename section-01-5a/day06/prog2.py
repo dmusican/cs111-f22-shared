@@ -10,5 +10,7 @@ print("It's coming....")
 for something in things[1:3]:
     print(something)
 
+# Change an item
+print(things)
 things[1] = 25
 print(things)
