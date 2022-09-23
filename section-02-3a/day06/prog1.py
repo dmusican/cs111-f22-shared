@@ -10,5 +10,8 @@ print(word[-1])
 newWord = word + "abcde"
 print(newWord)
 
+for something in word:
+    print(something)
+
 
 
