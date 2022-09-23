@@ -5,4 +5,6 @@ print("multiple: ", word[1:3])
 print("length:", len(word))
 print("last:", word[len(word)-1])
 print("last:", word[-1])
+newWord = word + "abcde"
+print(newWord)
 
