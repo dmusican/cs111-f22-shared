@@ -12,6 +12,7 @@ for something in word:
 
 #word[1] = "x"
 
-word = "cxrleton"
+newLetter = "x"
+word = word[0] + newLetter + word[2:]
 print(word)
 
