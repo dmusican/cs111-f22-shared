@@ -9,3 +9,4 @@ print(word.index("a"))
 partOfIt = word[:4]
 print(partOfIt)
 print(word)
+word = "newthing"
