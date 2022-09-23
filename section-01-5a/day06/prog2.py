@@ -9,3 +9,6 @@ print("middleish:", things[1:3])
 print("It's coming....")
 for something in things[1:3]:
     print(something)
+
+things[1] = 25
+print(things)
