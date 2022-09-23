@@ -15,3 +15,9 @@ myList = [1, 9, "happy", "carl"]
 print(myList)
 myList[2] = "sad"
 print(myList)
+print(myList[0]) # first item
+print(myList[-1]) # last
+print(myList[1:3])
+
+
+
