@@ -2,7 +2,7 @@
 # (There's an easier way, but I want
 # to show this works)
 phrase = 'carleton'
-shift = 32
+shift = ord('a') - ord('A')
 for letter in phrase:
     unicodeValue = ord(letter)
     newValue = unicodeValue - shift
