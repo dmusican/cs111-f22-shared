@@ -3,8 +3,8 @@
 # to show this works)
 phrase = 'carleton'
 shift = ord('a') - ord('A')
-for letter in phrase:
-    unicodeValue = ord(letter)
+for symbol in phrase:
+    unicodeValue = ord(symbol)
     newValue = unicodeValue - shift
     newLetter = chr(newValue)
     print(newLetter, end="")
