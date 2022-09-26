@@ -3,9 +3,10 @@
 # to show this works)
 phrase = 'carleton[]'
 shift = ord('a') - ord('A')
+answer = ""
 for symbol in phrase:
     unicodeValue = ord(symbol)
     newValue = unicodeValue - shift
     newLetter = chr(newValue)
-    print(newLetter, end="")
-print()
+    answer = answer + newLetter
+print(answer)
