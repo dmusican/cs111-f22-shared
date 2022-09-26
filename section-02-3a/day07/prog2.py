@@ -7,4 +7,4 @@ for letter in phrase:
     newValue = unicodeValue - 32
     newLetter = chr(newValue)
     print(newLetter, end="")
-#print()
+print()
