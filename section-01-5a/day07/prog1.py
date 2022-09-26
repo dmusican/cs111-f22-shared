@@ -1,7 +1,7 @@
 # Convert everything from lower case to upper
 phrase = 'carleton'
 result = ""
-caseShift = 32
+caseShift = ord('a') - ord('A')
 for theLetter in phrase:
     unicodeValue = ord(theLetter)
     updatedValue = unicodeValue - caseShift
