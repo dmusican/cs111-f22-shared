@@ -1,8 +1,8 @@
 
 # Don't need this because "len" is built-in
-def getLength(phrase):
+def getLength(flibble):
     total = 0
-    for character in phrase:
+    for character in flibble:
         total = total + 1
     return total
 
