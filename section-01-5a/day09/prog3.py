@@ -1,6 +1,6 @@
-def new_value(a):
-    b = 12
-    return b
+def new_value(x):
+    x = 12
+    return x
 
 x = 3
 y = new_value(x)
