@@ -14,4 +14,5 @@ def get_year():
 
 #show_year()
 
-get_year()
+result = get_year()
+print(result)
