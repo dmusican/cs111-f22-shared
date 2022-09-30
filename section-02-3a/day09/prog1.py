@@ -12,4 +12,6 @@ def get_year():
 
 
 
-show_year()
+#show_year()
+
+get_year()
