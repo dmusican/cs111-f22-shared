@@ -15,4 +15,7 @@ def get_year():
 #show_year()
 
 result = get_year()
-print(result)
+print("Your year, my friends, is", result)
+print("Here it is again, my friend", result)
+print("Last year, was", result-1)
+print("Next year, is", result+1)
