@@ -3,6 +3,6 @@ def new_value(a):
     return b
 
 x = 3
-y = new_value("z")
+y = new_value(x)
 print(x)
 print(y)
