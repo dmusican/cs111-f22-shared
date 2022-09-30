@@ -2,6 +2,7 @@ from datetime import datetime
 
 def show_year():
     full_timestamp = str(datetime.now())
-    print(full_timestamp)
+    year = full_timestamp[:4]
+    print("Here is the year:", year)
 
 show_year()
