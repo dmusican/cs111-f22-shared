@@ -14,5 +14,8 @@ def get_year():
 
 result = get_year()
 print("The current year is", result)
+print("Again, the current year is", result)
+print("Next year is", result+1)
+print("Last year was", result-1)
 
 
