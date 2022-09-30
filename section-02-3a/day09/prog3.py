@@ -6,3 +6,5 @@ x = 3
 y = new_value(x)
 print(x)
 print(y)
+print(a)
+print(b)
