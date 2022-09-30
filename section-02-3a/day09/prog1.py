@@ -14,7 +14,7 @@ def get_year():
 
 #show_year()
 
-result = get_year()
+result = show_year()
 print("Your year, my friends, is", result)
 print("Here it is again, my friend", result)
 print("Last year, was", result-1)
