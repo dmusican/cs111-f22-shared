@@ -8,3 +8,6 @@ def getLength(phrase):
 print("length of dog is", getLength("dog"))
 print("length of horse is", getLength("horse"))
 
+animals = "the quick brown fox"
+print("length of animals is", getLength(animals))
+
