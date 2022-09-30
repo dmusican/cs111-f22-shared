@@ -12,6 +12,7 @@ def get_year():
     return year
 
 
-get_year()
+result = get_year()
+print("The current year is", result)
 
 
