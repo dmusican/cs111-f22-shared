@@ -1,7 +1,7 @@
 x = int(input("Number? "))
 if x == 1:
     print("It is one.")
-elif x < 3:
+if x < 3:
     print("It is less than three.")
 elif x < 8:
     print("It is less than eight.")
