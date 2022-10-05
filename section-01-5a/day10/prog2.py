@@ -1,5 +1,5 @@
 # Piglatin translation
-# only if the length of word is 5
+# if the word is not punctuation
 word = input("What should I translate? ")
 
 if len(word) == 5:
