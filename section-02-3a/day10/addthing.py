@@ -1,4 +1,9 @@
 def addOne(x):
     return x+1
 
-print(addOne(3))
+# Convention to indicate where all the
+# action starts
+def main():
+    print(addOne(3))
+
+main()
