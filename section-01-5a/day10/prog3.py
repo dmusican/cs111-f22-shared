@@ -7,7 +7,7 @@ word = input("What should I translate? ")
 
 if word in ["?", "!", ","]:
     output = word
-if word[0] in ["a", "e", "i", "o", "u"]:
+elif word[0] in ["a", "e", "i", "o", "u"]:
     output = word + "ay"
 else:
     output = word[1:] + word[0] + "ay"
