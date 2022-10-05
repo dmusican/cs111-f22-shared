@@ -1,5 +1,7 @@
 # Piglatin translation
 # if the word is not punctuation
+# don't translate
+# if starts with a vowel, leave it there
 word = input("What should I translate? ")
 
 if word == "?":
