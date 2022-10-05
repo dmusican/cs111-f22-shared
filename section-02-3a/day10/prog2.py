@@ -7,9 +7,10 @@ if word == '?':
 else:
     output = word[1:] + word[0] + "ay"
 
+print(output)
+
 if 3 == 5:
     print("pigs can fly")
 else:
     print("pigs cannot fly")
 
-print(output)
