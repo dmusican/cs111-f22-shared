@@ -3,7 +3,7 @@
 # but also if starts with a vowel, leave
 # it there
 word = input("Give me a word: ")
-if word == '?':
+if word in ['?', '!', ',']:
     output = word
 else:
     output = word[1:] + word[0] + "ay"
