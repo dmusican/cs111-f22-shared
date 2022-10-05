@@ -6,4 +6,6 @@ def addOne(x):
 def main():
     print(addOne(3))
 
-main()
+# if addfunctions.py were run directly:
+if __name__=='__main__':
+    main()
