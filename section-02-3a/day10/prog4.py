@@ -6,5 +6,5 @@ elif x == 3:
     print("yay")
 elif x == 2:
     print(10*10)
-#else:
-#    print("Nothing here")
+else:
+    print("Nothing here")
