@@ -2,8 +2,9 @@
 # Only translate if no punctuation,
 # otherwise leave intact
 word = input("Give me a word: ")
-if len(word) == 5:
+if word == '?':
+    output = word
+else:
     output = word[1:] + word[0] + "ay"
-    print(output)
 
-print("Done!")
+print(output)
