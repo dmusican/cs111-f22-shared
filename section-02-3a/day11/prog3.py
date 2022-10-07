@@ -1,5 +1,6 @@
 # Number guessing game
 secret = 37
+# Priming read
 guess = int(input("What is your guess?"))
 while guess != secret:
     if guess < secret:
