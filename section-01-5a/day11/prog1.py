@@ -2,3 +2,9 @@
 vowels = ['a', 'e', 'i', 'o', 'u']
 for letter in vowels:
     print(vowels)
+
+# Add numbers up to 100
+sum = 0
+for i in range(1,101):
+    sum = sum + 1
+print(sum)
