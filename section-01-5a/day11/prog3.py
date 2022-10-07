@@ -1,7 +1,8 @@
 # Guessing game
 # Computer picks a number, user has to guess it
+import random
 
-secret = 37
+secret = random.randrange(100) + 1
 
 guess = -1   # priming value
 while guess != secret:
