@@ -3,6 +3,7 @@
 
 secret = 37
 
+guess = -1   # priming value
 while guess != secret:
     guess = int(input("What's your guess? "))
     if guess < secret:
