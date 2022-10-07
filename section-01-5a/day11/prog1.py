@@ -1,7 +1,7 @@
 # for loop warmup
 vowels = ['a', 'e', 'i', 'o', 'u']
 for letter in vowels:
-    print(vowels)
+    print(letter)
 
 # Add numbers up to 100
 sum = 0
