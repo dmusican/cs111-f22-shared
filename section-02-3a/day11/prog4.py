@@ -1,5 +1,7 @@
 # Number guessing game
-secret = 37
+import random
+
+secret = random.randrange(100)+1
 
 guess = -1  # ensures while gets started
 while guess != secret:
