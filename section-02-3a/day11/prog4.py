@@ -1,6 +1,7 @@
 # Number guessing game
 secret = 37
 
+guess = -1  # ensures while gets started
 while guess != secret:
     guess = int(input("What is your guess?"))
     if guess < secret:
