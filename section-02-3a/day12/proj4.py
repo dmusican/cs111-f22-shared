@@ -7,6 +7,12 @@ dave.draw(win)
 for i in range(dave.getNumPixels()):
     print(dave.getPixel1D(i))
 
+    pixel = dave.getPixel1D(i)
+    if pixel.getRed() > 200 and pixel.getGreen() > 200 \
+       pixel.getBlue() > 200:
+
+        dave.setPixel1D(i, Pixel(0,0,0))
+
 
 
 input("Waiting....")
