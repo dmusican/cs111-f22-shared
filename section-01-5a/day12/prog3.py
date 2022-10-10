@@ -6,6 +6,7 @@ dave = FileImage("dave-selfie.gif")
 dave.draw(win)
 
 for i in range(dave.getNumPixels()):
+    print(i)
     pixel = dave.getPixel1D(i)
     sleep(0.001)
     if pixel.getRed() > 200 and pixel.getGreen() > 200 \
