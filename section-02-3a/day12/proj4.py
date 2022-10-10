@@ -11,7 +11,9 @@ for i in range(dave.getNumPixels()):
     if pixel.getRed() > 200 and pixel.getGreen() > 200 \
        and pixel.getBlue() > 200:
 
-        dave.setPixel1D(i, Pixel(0,0,0))
+        #dave.setPixel1D(i, Pixel(0,0,0))
+        # replace with one pixel left
+        dave.setPixel1D(i, dave.getPixel1D(i-1))
 
 
 
