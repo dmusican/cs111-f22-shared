@@ -7,7 +7,6 @@ dave.draw(win)
 
 for i in range(dave.getNumPixels()):
     pixel = dave.getPixel1D(i)
-    sleep(0.0000001)
     if pixel.getRed() > 200 and pixel.getGreen() > 200 \
        and pixel.getBlue() > 200:
        dave.setPixel1D(i, Pixel(0,0,0))
