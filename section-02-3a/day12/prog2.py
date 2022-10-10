@@ -1,4 +1,4 @@
 
 response = input("Favorite color?")
-if response != "blue" or response != "green":
+if response != "blue" and response != "green":
     print("Me too!")
