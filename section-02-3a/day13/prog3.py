@@ -1,18 +1,19 @@
 from images import *
 
 def removeBright(brightImage):
-    for i in range(brightImage.getNumPixels()):
+    newPic = brightImage.copy()
+    for i in range(newPic.getNumPixels()):
 
         threshold = 150
-        pixel = brightImage.getPixel1D(i)
+        pixel = newPic.getPixel1D(i)
         if pixel.getRed() > threshold and \
            pixel.getGreen() > threshold and \
            pixel.getBlue() > threshold:
             # replace with one pixel left
-            brightImage.setPixel1D(i,
-                        brightImage.getPixel1D(i-1))
+            newPic.setPixel1D(i,
+                        newPic.getPixel1D(i-1))
 
-    return brightImage
+    return newPic
 
 def main():
     win1 = ImageWin(480, 640, "Original")
