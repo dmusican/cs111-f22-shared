@@ -1,5 +1,8 @@
 
 
+
+from images import *
+
 def removeBright(image):
 
     for i in range(image.getNumPixels()):
