@@ -1,5 +1,18 @@
 
 
+def removeBright(image):
+
+
+    for i in range(dave.getNumPixels()):
+        pixel = dave.getPixel1D(i)
+        threshold = 150
+        if pixel.getRed() > threshold and \
+           pixel.getGreen() > threshold and \
+           pixel.getBlue() > threshold:
+           dave.setPixel1D(i, dave.getPixel1D(i-1))
+
+
+
 
 
 def main():
