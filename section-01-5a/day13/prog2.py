@@ -10,7 +10,7 @@ def removeBright(image):
            pixel.getBlue() > threshold:
            image.setPixel1D(i, image.getPixel1D(i-1))
 
-
+    return image
 
 
 
