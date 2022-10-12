@@ -1,5 +1,9 @@
 from images import *
 
+def removeBright(brightImage):
+
+
+
 def main():
     win1 = ImageWin(480, 640, "Original")
     orig = FileImage("dave-selfie.gif")
