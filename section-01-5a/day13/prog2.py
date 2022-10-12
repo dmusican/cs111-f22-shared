@@ -5,15 +5,16 @@ from images import *
 
 def removeBright(image):
 
-    for i in range(image.getNumPixels()):
-        pixel = image.getPixel1D(i)
+    newPic = image.copy()
+    for i in range(newPic.getNumPixels()):
+        pixel = newPic.getPixel1D(i)
         threshold = 150
         if pixel.getRed() > threshold and \
            pixel.getGreen() > threshold and \
            pixel.getBlue() > threshold:
-           image.setPixel1D(i, image.getPixel1D(i-1))
+           newPic.setPixel1D(i, newPic.getPixel1D(i-1))
 
-    return image
+    return newPic
 
 
 
