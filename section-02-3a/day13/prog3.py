@@ -14,7 +14,6 @@ def removeBright(brightImage):
 
     return brightImage
 
-
 def main():
     win1 = ImageWin(480, 640, "Original")
     orig = FileImage("dave-selfie.gif")
