@@ -9,7 +9,8 @@ def removeBright(brightImage):
            pixel.getGreen() > threshold and \
            pixel.getBlue() > threshold:
             # replace with one pixel left
-            brightImage.setPixel1D(i, dave.getPixel1D(i-1))
+            brightImage.setPixel1D(i,
+                            dave.getPixel1D(i-1))
 
 
 
