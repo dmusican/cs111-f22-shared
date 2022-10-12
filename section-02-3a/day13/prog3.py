@@ -12,6 +12,7 @@ def removeBright(brightImage):
             brightImage.setPixel1D(i,
                             dave.getPixel1D(i-1))
 
+    return brightImage
 
 
 def main():
