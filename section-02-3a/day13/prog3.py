@@ -1,6 +1,17 @@
 from images import *
 
 def removeBright(brightImage):
+    for i in range(brightImage.getNumPixels()):
+
+        threshold = 150
+        pixel = brightImage.getPixel1D(i)
+        if pixel.getRed() > threshold and \
+           pixel.getGreen() > threshold and \
+           pixel.getBlue() > threshold:
+
+            #dave.setPixel1D(i, Pixel(0,0,0))
+            # replace with one pixel left
+            dave.setPixel1D(i, dave.getPixel1D(i-1))
 
 
 
