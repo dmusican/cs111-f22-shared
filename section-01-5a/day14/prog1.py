@@ -3,7 +3,7 @@ from images import *
 
 def blur(original, width):
     newPic = original.copy()
-    for i in range(newPic.getNumPixels):
+    for i in range(newPic.getNumPixels()):
         newPixel = #average of the range of the pixels in the original
         newPic.setPixel1D(i, newPixel)
 
