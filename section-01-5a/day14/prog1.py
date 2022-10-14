@@ -29,7 +29,7 @@ def main():
                     "Original")
     orig.draw(win1)
 
-    updated = blur(orig, 2)
+    updated = blur(orig, 5)
     win2 = ImageWin(updated.getWidth(), updated.getHeight(),
                     "Updated")
     updated.draw(win2)
