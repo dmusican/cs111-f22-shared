@@ -15,7 +15,7 @@ def main():
     win1 = ImageWin(orig.getWidth(), orig.getHeight(), "Dave")
     orig.draw(win1)
 
-    flipped = flip(orig, 5)
+    flipped = flip(orig)
     win2 = ImageWin(flipped.getWidth(), flipped.getHeight(), "whoa")
     flipped.draw(win2)
     input("Look at me!")
