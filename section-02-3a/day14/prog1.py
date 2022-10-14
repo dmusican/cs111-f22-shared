@@ -18,5 +18,7 @@ def main():
     orig.draw(win1)
     input("Look at me!")
 
+    blurred = blur(orig, 5)
+
 if __name__=="__main__":
     main()
