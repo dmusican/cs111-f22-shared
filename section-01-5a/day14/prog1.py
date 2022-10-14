@@ -1,7 +1,7 @@
 from images import *
 
 def main():
-    orig = FileImage('dave-selfie.jpg')
+    orig = FileImage('dave-selfie.gif')
     win1 = ImageWin(orig.getWidth(), orig.getHeight(), "Original")
     orig.draw(win1)
     input("Look at me...")
