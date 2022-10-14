@@ -1,5 +1,11 @@
 from images import *
 
+def blur(original, width):
+    newPic = original.copy()
+
+    for i in range(newPic.getNumPixels()):
+
+
 def main():
     orig = FileImage('dave-selfie.gif')
     win1 = ImageWin(orig.getWidth(), orig.getHeight(), "Dave")
