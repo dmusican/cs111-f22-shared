@@ -5,6 +5,8 @@ def average(image, center, width, rgbChoice):
     for i in range(-width, width+1):
         pixel_i = image.getPixel1D(center + i)
         total = total + pixel_i[rgbChoice]
+    mean = total // (2*width + 1)
+    return mean
 
 def blur(original, width):
     newPic = original.copy()
