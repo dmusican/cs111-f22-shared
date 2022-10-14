@@ -7,7 +7,7 @@ def average(image, location, width, rgbChoice):
 
         total = total + pixel_i[rgbChoice]
 
-    mean = total / (2*width + 1)
+    mean = total // (2*width + 1)
     return mean
 
 
