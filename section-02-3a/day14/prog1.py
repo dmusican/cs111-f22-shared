@@ -4,7 +4,10 @@ def blur(original, width):
     newPic = original.copy()
 
     for i in range(newPic.getNumPixels()):
+        newPixelValue =  #average of pixels around pixel i
+        newPic.setPixel1D(i, newPixelValue)
 
+    return newPic
 
 def main():
     orig = FileImage('dave-selfie.gif')
