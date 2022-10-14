@@ -11,7 +11,7 @@ def average(image, center, width, rgbChoice):
 def blur(original, width):
     newPic = original.copy()
 
-    for i in range(newPic.getNumPixels()):
+    for i in range(width, newPic.getNumPixels()-width):
         #average of pixels around pixel i
         newPixelValue = Pixel(average(original, i, width, 0),
                               average(original, i, width, 1),
