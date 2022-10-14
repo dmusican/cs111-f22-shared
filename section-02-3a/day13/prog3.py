@@ -13,6 +13,7 @@ def removeBright(brightImage):
             newPic.setPixel1D(i,
                         newPic.getPixel1D(i-1))
 
+
     return newPic
 
 def main():
