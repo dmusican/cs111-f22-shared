@@ -1,5 +1,14 @@
 from images import *
 
+def flipped(image):
+    newImage = image.copy()
+
+    for i in range(image.getWidth()):
+        for j in range(image.getHeight()):
+            oppositePixel = image.getPixel2D(i, image.getHeight()- j - 1)
+            newImage.setPixel2D(i, j, oppositePixel)
+    return newImage
+
 
 def main():
     orig = FileImage('dave-selfie.gif')
