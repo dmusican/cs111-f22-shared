@@ -1,5 +1,11 @@
 from images import *
 
+def average(image, center, width, rgbChoice):
+    total = 0
+    for i in range(-width, width+1):
+        pixel_i = image.getPixel1D(center + i)
+        total = total + pixel_i[rgbChoice]
+
 def blur(original, width):
     newPic = original.copy()
 
