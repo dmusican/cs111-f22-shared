@@ -1,6 +1,6 @@
 from images import *
 
-def flipped(image):
+def flip(image):
     newImage = image.copy()
 
     for i in range(image.getWidth()):
