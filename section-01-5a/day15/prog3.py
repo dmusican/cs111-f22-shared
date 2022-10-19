@@ -1,7 +1,8 @@
 from images import *
 
-def crop(original):
-
+def crop(original, xstart, xend, ystart, yend):
+    newWidth = xend - xstart
+    newHeight = yend - ystart
 
 
 
