@@ -3,9 +3,11 @@ from images import *
 def crop(original, xstart, xend, ystart, yend):
     newWidth = xend - xstart
     newHeight = yend - ystart
-
-
-
+    newPic = EmptyImage(newWidth, newHeight)
+    for i in range(newWidth):
+        for j in range(newHeight):
+            pixelToKeep = original.getPixel2D(xstart + i, ystart + j)
+            newPic.setPixel2D(i, j, pixelToKeep)
 
     return newPic
 
