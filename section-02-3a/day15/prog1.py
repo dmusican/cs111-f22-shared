@@ -25,5 +25,7 @@ def main():
                     "Cropped!")
     cropped.draw(win2)
 
+    input("Look!")
+
 if __name__=="__main__":
     main()
