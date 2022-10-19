@@ -5,7 +5,7 @@ def crop(origImage, xstart, xend, ystart, yend):
     newHeight = yend - ystart
     newImage = EmptyImage(newWidth, newHeight)
     # Loop over new image
-    for in range(newWidth):
+    for i in range(newWidth):
         for j in range(newHeight):
             pixelToKeep = origImage.getPixel2D(i+xstart,j+ystart)
             newImage.setPixel2D(i, j, pixelToKeep)
