@@ -3,7 +3,10 @@ class Counter:
         self.value = 0
 
     def click(self):
+        self.value = self.value + 1
 
+    def getValue(self):
+        return self.value
 
 
 def main():
