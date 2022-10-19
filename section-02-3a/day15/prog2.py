@@ -12,6 +12,7 @@ class Counter:
 
 def main():
     tally = Counter()
+    tally.reset()
     tally.click()
     tally.click()
     tally.click()
