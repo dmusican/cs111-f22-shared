@@ -1,5 +1,15 @@
 # Imagine we have a Counter class
 
+class Counter:
+    def reset(self):
+        self.value = 0
+
+    def click(self):
+        self.value = self.value + 1
+
+    def getValue(self):
+        return self.value
+
 def main():
     tally = Counter()
     tally.click()
