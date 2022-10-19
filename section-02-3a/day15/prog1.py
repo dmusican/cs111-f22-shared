@@ -1,9 +1,14 @@
 from images import *
 
-def crop(image, xstart, xend, ystart, yend):
+def crop(origImage, xstart, xend, ystart, yend):
     newWidth = xend - xstart
     newHeight = yend - ystart
     newImage = EmptyImage(newWidth, newHeight)
+    # Loop over new image
+    for in range(newWidth):
+        for j in range(newHeight):
+            pixelToKeep = origImage.getPixel2D(i+xstart,j+ystart)
+
 
 
 
