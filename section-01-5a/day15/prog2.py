@@ -8,7 +8,7 @@ def flip(original):
            oppositePixel = original.getPixel2D(i, original.getHeight() - j - 1)
            newPic.setPixel2D(i, j, oppositePixel)
 
-           return newPic
+   return newPic
 
 def main():
     orig = FileImage('dave-selfie.gif')
