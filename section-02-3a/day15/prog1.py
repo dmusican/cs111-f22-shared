@@ -7,6 +7,9 @@ def crop(image, xstart, xend, ystart, yend):
 
 
 
+    return newImage
+
+
 def main():
     orig = FileImage("dave-selfie.gif")
     win1 = ImageWin(orig.getWidth(), orig.getHeight(),
