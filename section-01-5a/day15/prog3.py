@@ -1,13 +1,10 @@
 from images import *
 
-def flip(original):
-    newPic = original.copy()
+def crop(original):
 
-    for i in range(newPic.getWidth()):
-        for j in range(newPic.getHeight()):
-           oppositePixel = original.getPixel2D(i,
-                                               original.getHeight() - j - 1)
-           newPic.setPixel2D(i, j, oppositePixel)
+
+
+
 
     return newPic
 
@@ -16,8 +13,8 @@ def main():
     win1 = ImageWin(orig.getWidth(), orig.getHeight(), "Original")
     orig.draw(win1)
 
-    updated = flip(orig)
-    win2 = ImageWin(orig.getWidth(), orig.getHeight(), "Flipped")
+    updated = crop(orig, 30, 201, 100, 251)
+    win2 = ImageWin(orig.getWidth(), orig.getHeight(), "Cropped")
     updated.draw(win2)
 
     input("Look at me!")
