@@ -5,7 +5,7 @@ def flip(original):
 
     for i in range(newPic.getWidth()):
         for j in range(newPic.getHeight()):
-           oppositePixel = image.getPixel2D(i, image.getHeight() - j - 1)
+           oppositePixel = original.getPixel2D(i, original.getHeight() - j - 1)
            newPic.setPixel2D(i, j, oppositePixel)
 
            return newPic
