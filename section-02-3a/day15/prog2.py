@@ -15,11 +15,12 @@ def main():
     tally.reset()
     tally.click()
     tally.click()
-    tally.click()
-    tally.reset()
-    tally.click()
-    tally.click()
+    tally2 = Counter()
+    tally2.reset()
+    tally2.click()
     currentValue = tally.getValue()
+    print("Current value is", currentValue)
+    currentValue = tally2.getValue()
     print("Current value is", currentValue)
 
 if __name__=="__main__":
