@@ -1,3 +1,4 @@
+from images import *
 
 def main():
     orig = FileImage('dave-selfie.gif')
