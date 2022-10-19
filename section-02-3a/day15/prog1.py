@@ -1,5 +1,9 @@
+from images import *
+
 def crop(image, xstart, xend, ystart, yend):
     newWidth = xend - xstart
+    newHeight = yend - ystart
+    newImage = EmptyImage(width, height):
 
 
 def main():
