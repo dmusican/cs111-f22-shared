@@ -17,7 +17,7 @@ def main():
     orig.draw(win1)
 
     updated = crop(orig, 30, 201, 100, 251)
-    win2 = ImageWin(orig.getWidth(), orig.getHeight(), "Cropped")
+    win2 = ImageWin(updated.getWidth(), updated.getHeight(), "Cropped")
     updated.draw(win2)
 
     input("Look at me!")
