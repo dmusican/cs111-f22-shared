@@ -1,3 +1,6 @@
+def crop(image, xstart, xend, ystart, yend):
+    newWidth = xend - xstart
+
 
 def main():
     orig = FileImage("dave-selfie.gif")
