@@ -16,7 +16,7 @@ def main():
     orig.draw(win1)
 
     updated = flip(orig)
-    win2 = ImageWin(orig.getWidth(), orig.getHeight(), "Blurred")
+    win2 = ImageWin(orig.getWidth(), orig.getHeight(), "Flipped")
     updated.draw(win2)
 
     input("Look at me!")
