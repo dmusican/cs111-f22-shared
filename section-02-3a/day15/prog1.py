@@ -10,9 +10,6 @@ def crop(origImage, xstart, xend, ystart, yend):
             pixelToKeep = origImage.getPixel2D(i+xstart,j+ystart)
             newImage.setPixel2D(i, j, pixelToKeep)
 
-
-
-
     return newImage
 
 
