@@ -1,3 +1,14 @@
+class Die:
+    def roll(self):
+        # some code here
+
+    def getShowing(self):
+        # some code here
+
+    def setShowing(self, valueToSet):
+        # some code here
+
+
 def main():
     die1 = Die()
     die1.setShowing(3)
