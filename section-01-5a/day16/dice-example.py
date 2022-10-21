@@ -13,10 +13,16 @@ class Die:
 
 def main():
     die1 = Die()
+    die2 = Die()
+
     die1.setShowing(3)
-    print(die1.getShowing())
+    print("Die 1 is", die1.getShowing())
     die1.roll()
-    print(die1.getShowing())
+    print("Die 1 is", die1.getShowing())
+
+    die2.setShowing(5)
+    print("Die 2 is", die2.getShowing())
+    print("Die 1 is", die1.getShowing())
 
 if __name__=="__main__":
     main()
