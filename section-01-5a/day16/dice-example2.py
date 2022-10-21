@@ -19,9 +19,8 @@ class Die:
         self.numSides = sidesToSet
 
 def main():
-    die1 = Die()
-    die2 = Die()
-    die2.setNumSides(1000)
+    die1 = Die(6)
+    die2 = Die(1000)
 
     die1.setShowing(3)
     print("Die 1 is", die1.getShowing())
