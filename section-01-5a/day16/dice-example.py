@@ -3,7 +3,7 @@ class Die:
         # some code here
 
     def getShowing(self):
-        # some code here
+        return self.showing
 
     def setShowing(self, valueToSet):
         self.showing = valueToSet
