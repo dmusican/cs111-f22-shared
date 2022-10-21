@@ -21,6 +21,7 @@ def main():
     print("Die 1", die1.getShowing())
 
     die2 = Die()
+    die2.setSides(100)
     die2.roll()
     print("Die 2", die2.getShowing())
     print("Die 1", die1.getShowing())
