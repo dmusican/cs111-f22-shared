@@ -1,8 +1,8 @@
 import random
 
 class Die:
-    def __init__(self): # special name, means do first
-        self.sides = 6
+    def __init__(self, sidesToSet):
+        self.sides = sidesToSet
 
     def roll(self):
         self.showing = random.randrange(1, self.sides+1)
