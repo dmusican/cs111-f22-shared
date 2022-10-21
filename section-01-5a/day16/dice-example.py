@@ -2,7 +2,7 @@ import random
 
 class Die:
     def roll(self):
-        self.showing = random.randrange(1,7)
+        self.showing = random.randrange(1, self.numSides + 1)
 
     def getShowing(self):
         return self.showing
