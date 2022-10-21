@@ -15,7 +15,6 @@ class Die:
 
 def main():
     die1 = Die()
-    die1.setNumSides(6)
     die2 = Die()
     die2.setNumSides(1000)
 
