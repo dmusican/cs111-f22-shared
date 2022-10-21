@@ -6,7 +6,7 @@ class Die:
         # some code here
 
     def setShowing(self, valueToSet):
-        # some code here
+        self.showing = valueToSet
 
 
 def main():
