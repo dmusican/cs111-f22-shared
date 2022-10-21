@@ -18,8 +18,6 @@ class Die:
 
 def main():
     die1 = Die()
-    #die1.setShowing(3)
-    #print(die1.getShowing())
     die1.roll()
     print("Die 1", die1.getShowing())
 
@@ -27,7 +25,6 @@ def main():
     die2.setSides(1000)
     die2.roll()
     print("Die 2", die2.getShowing())
-    print("Die 1", die1.getShowing())
 
 if __name__=="__main__":
     main()
