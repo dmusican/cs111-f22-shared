@@ -3,7 +3,7 @@ import random
 class Die:
     # I want a default value for numSides to be 6
     # is it something like   default set numsides = 6? No.
-    def ................(self):  # special built-in name which means run first
+    def __init__(self):  # special built-in name which means run first
         self.numSides = 6
 
     def roll(self):
