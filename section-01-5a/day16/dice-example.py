@@ -1,5 +1,5 @@
 class Die:
-    def roll(self):
+    #def roll(self):
         # some code here
 
     def getShowing(self):
