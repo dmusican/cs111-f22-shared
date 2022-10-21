@@ -10,7 +10,6 @@ class Die:
     def setShowing(self, valueToShow):
         self.showing = valueToShow
 
-
 def main():
     die1 = Die()
     die1.setShowing(3)
