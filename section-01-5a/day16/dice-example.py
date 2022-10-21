@@ -24,7 +24,7 @@ def main():
     die1.roll()
     print("Die 1 is", die1.getShowing())
 
-    die2.setShowing(5)
+    die2.roll()
     print("Die 2 is", die2.getShowing())
     print("Die 1 is", die1.getShowing())
 
