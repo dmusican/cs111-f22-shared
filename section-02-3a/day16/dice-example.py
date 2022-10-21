@@ -26,7 +26,6 @@ def main():
     die1 = Die()
     #die1.setShowing(3)
     #print(die1.getShowing())
-    die1.setSides(6)
     die1.roll()
     print("Die 1", die1.getShowing())
 
