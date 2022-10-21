@@ -1,17 +1,11 @@
 import random
 
 class Die:
-
-    #default value
-    # self.sides = 6, at first, when the object is
-    #    first created
-    # ???? initial default self.sides = 6
     def __init__(self): # special name, means do first
         self.sides = 6
 
     def roll(self):
-        self.showing = random.randrange(1,
-                                        self.sides+1)
+        self.showing = random.randrange(1, self.sides+1)
 
     def getShowing(self):
         return self.showing
