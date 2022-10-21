@@ -1,11 +1,11 @@
 class Die:
-    def roll():
+    def roll(self):
         # Code goes here
 
-    def getShowing():
+    def getShowing(self):
         # Code goes here
 
-    def setShowing(valueToShow):
+    def setShowing(self, valueToShow):
         # Code goes here
 
 
