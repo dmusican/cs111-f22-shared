@@ -17,12 +17,11 @@ class Die:
         self.sides = sidesToSet
 
 def main():
-    die1 = Die()
+    die1 = Die(6)
     die1.roll()
     print("Die 1", die1.getShowing())
 
-    die2 = Die()
-    die2.setSides(1000)
+    die2 = Die(1000)
     die2.roll()
     print("Die 2", die2.getShowing())
 
