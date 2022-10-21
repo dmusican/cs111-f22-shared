@@ -1,6 +1,8 @@
+import random
+
 class Die:
-    #def roll(self):
-        # some code here
+    def roll(self):
+        self.showing = random.randrange(1,7)
 
     def getShowing(self):
         return self.showing
