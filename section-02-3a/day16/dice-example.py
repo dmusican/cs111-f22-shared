@@ -10,6 +10,9 @@ class Die:
     def setShowing(self, valueToShow):
         self.showing = valueToShow
 
+    def setSides(self, sidesToSet):
+        self.sides = sidesToSet
+
 def main():
     die1 = Die()
     #die1.setShowing(3)
