@@ -18,6 +18,7 @@ def main():
     rae = Person("Rachel M")
 
     dave.addFriend(liz)
+    dave.addFriend(liz)
     dave.addFriend(rae)
 
     liz.addFriend(dave)
