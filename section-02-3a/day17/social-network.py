@@ -29,7 +29,7 @@ def main():
     dave.addFriend(llama)
     dave.addFriend(redpen)
 
-    redPen.addFriend(dave)
+    redpen.addFriend(dave)
 
     print(dave.countFriends())
     print(redpen.countFriends())
