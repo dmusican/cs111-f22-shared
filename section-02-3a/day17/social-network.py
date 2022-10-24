@@ -2,7 +2,8 @@ class Person:
     '''Person in a social networking system.
     A person is identified via their name'''
 
-    def __init__(self....):
+    def __init__(self, nameToSet):
+        self.name = nameToSet
 
     def addFriend(self, ....):
 
