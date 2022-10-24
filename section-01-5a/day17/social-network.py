@@ -5,7 +5,8 @@ class Person:
         self.name = nameToSet
         self.friends = []
 
-    def addFriend(self, ....):
+    def addFriend(self, friendToAdd):
+        self.friends.append(friendToAdd)
 
     def countFriends(self, ....):
 
