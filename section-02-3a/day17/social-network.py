@@ -7,6 +7,13 @@ class Person:
         self.friends = []
 
     def addFriend(self, friendToAdd):
+        # First check if friendToAdd is there
+        for existingFriend in self.friends:
+            if existingFriend.name == \
+               friendToAdd.name:
+                print("That's already a friend!")
+                return
+
         self.friends.append(friendToAdd)
 
     def countFriends(self, ....):
