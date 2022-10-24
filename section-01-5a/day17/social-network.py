@@ -22,9 +22,9 @@ def main():
 
     liz.addFriend(dave)
 
-    print(dave.countFriends())
-    print(liz.countFriends())
-    print(rae.countFriends())
+    print(dave.name, dave.countFriends())
+    print(liz.name, liz.countFriends())
+    print(rae.name, rae.countFriends())
 
 if __name__=="__main__":
     main()
