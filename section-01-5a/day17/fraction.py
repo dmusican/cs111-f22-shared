@@ -4,8 +4,8 @@ class Fraction:
         self.top = topToSet
         self.bottom = bottomToSet
 
-
-    def display(self, .....):
+    def display(self):
+        print(self.top, "/", self.bottom)
 
 
 def main():
