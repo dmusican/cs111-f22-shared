@@ -4,3 +4,6 @@ def main():
 
     frac1.display()
     frac2.display()
+
+if __name__=="__main__":
+    main()
