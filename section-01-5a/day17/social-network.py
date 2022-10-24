@@ -7,3 +7,10 @@ def main():
     dave.addFriend(rae)
 
     liz.addFriend(dave)
+
+    print(dave.countFriends())
+    print(liz.countFriends())
+    print(rae.countFriends())
+
+if __name__=="__main__":
+    main()
