@@ -1,7 +1,9 @@
 class Person:
     '''Person in a social networking system.
     Assume that name strings are unique'''
-    def __init__(self, ....):
+    def __init__(self, nameToSet):
+        self.name = nameToSet
+        self.friends = []
 
     def addFriend(self, ....):
 
