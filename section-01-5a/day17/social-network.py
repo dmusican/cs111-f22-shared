@@ -9,7 +9,7 @@ class Person:
         # check to make friendToAdd is not there
         for existingFriend in self.friends:
             if existingFriend.name == \
-               friendToAdd.name
+               friendToAdd.name:
             print("That person is already friend")
             return
 
