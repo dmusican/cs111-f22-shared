@@ -7,6 +7,9 @@ class Fraction:
     def display(self):
         print(self.top, "/", self.bottom)
 
+    def multiply(self, fractionToMultiply):
+        newTop = self.top * fractionToMultiply.top
+        newBottom = self.bottom * fractionToMultiply.bottom
 
 def main():
     frac1 = Fraction(3, 5)   # 3/5
