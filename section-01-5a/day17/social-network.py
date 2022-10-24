@@ -10,8 +10,8 @@ class Person:
         for existingFriend in self.friends:
             if existingFriend.name == \
                friendToAdd.name:
-            print("That person is already friend")
-            return
+                print("That person is already friend")
+                return
 
         self.friends.append(friendToAdd)
 
