@@ -16,7 +16,8 @@ class Person:
 
         self.friends.append(friendToAdd)
 
-    def countFriends(self, ....):
+    def countFriends(self):
+        return len(self.friends)
 
 
 
