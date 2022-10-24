@@ -31,9 +31,9 @@ def main():
 
     redpen.addFriend(dave)
 
-    print(dave.countFriends())
-    print(redpen.countFriends())
-    print(llama.countFriends())
+    print(dave.name, dave.countFriends())
+    print(redpen.name, redpen.countFriends())
+    print(llama.name, llama.countFriends())
 
 if __name__=="__main__":
     main()
