@@ -14,7 +14,7 @@ def main():
     frac2.display()
 
     # "wrong" way (just not the way)
-    # frac3 = mutiply(frac1, frac2)
+    # frac3 = multiply(frac1, frac2)
 
 if __name__=="__main__":
     main()
