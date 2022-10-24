@@ -8,7 +8,8 @@ class Fraction:
 
     def multiply(self, otherFraction):
         newTop = self.top * otherFraction.top
-        newBottom = self.bottm * otherFraction.bottom
+        newBottom = self.bottom * \
+                    otherFraction.bottom
         return Fraction(newTop, newBottom)
 
 def main():
