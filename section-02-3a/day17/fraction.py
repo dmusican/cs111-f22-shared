@@ -6,6 +6,11 @@ class Fraction:
     def display(self):
         print(self.top, "/", self.bottom)
 
+    def multiply(self, otherFraction):
+        newTop = self.top * otherFraction.top
+        newBottom = self.bottm * otherFraction.bottom
+        return Fraction(newTop, newBottom)
+
 def main():
     frac1 = Fraction(3,5)
     frac2 = Fraction(2,7)
