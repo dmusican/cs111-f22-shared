@@ -1,3 +1,15 @@
+class Person:
+    '''Person in a social networking system.
+    A person is identified via their name'''
+
+    def __init__(self....):
+
+    def addFriend(self, ....):
+
+    def countFriends(self, ....):
+
+
+
 def main():
     dave = Person("Dave Musicant")
     llama = Person("Llama llama")
