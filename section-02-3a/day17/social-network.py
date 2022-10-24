@@ -4,6 +4,7 @@ class Person:
 
     def __init__(self, nameToSet):
         self.name = nameToSet
+        self.friends = []
 
     def addFriend(self, ....):
 
