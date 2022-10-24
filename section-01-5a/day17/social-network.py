@@ -8,7 +8,8 @@ class Person:
     def addFriend(self, friendToAdd):
         self.friends.append(friendToAdd)
 
-    def countFriends(self, ....):
+    def countFriends(self):
+        return len(self.friends)
 
 
 def main():
