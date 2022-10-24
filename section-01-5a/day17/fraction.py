@@ -10,6 +10,7 @@ class Fraction:
     def multiply(self, fractionToMultiply):
         newTop = self.top * fractionToMultiply.top
         newBottom = self.bottom * fractionToMultiply.bottom
+        return Fraction(newTop, newBottom)
 
 def main():
     frac1 = Fraction(3, 5)   # 3/5
