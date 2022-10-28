@@ -1,10 +1,10 @@
 from graphics import *
 
 class Car:
-    def __init__(self, xToSet, yToSet, colorToSet):
-        self.x = xToSet
-        self.y = yToSet
-        self.color = colorToSet
+    def __init__(self, x, y, color):
+        self.x = x
+        self.y = y
+        self.color = color
 
 
 
