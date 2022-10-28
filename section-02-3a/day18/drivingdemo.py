@@ -9,6 +9,7 @@ class Car:
     def drawIt(self, window):
         body = Rectangle(Point(self.x, self.y),
                          Point(self.x+100, self.y+50))
+        body.setFill(self.color)
         body.draw(window)
 
 
