@@ -8,6 +8,6 @@ print(board)
 print()
 # Print nicely
 for row in range(5):
-    for col in len(row):
+    for col in len(board[row]):
         print(board[row][col], end=" ")
     print()
