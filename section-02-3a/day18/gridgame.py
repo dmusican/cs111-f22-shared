@@ -1,8 +1,8 @@
 # BUGGY BUGGY BUGGY
-board = []
-singlerow = ['-', '-', '-']
-for row in range(5):
-    board.append(singlerow)
+#board = []
+#singlerow = ['-', '-', '-']
+#for row in range(5):
+#    board.append(singlerow)
 
 
 
