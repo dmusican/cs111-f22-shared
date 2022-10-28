@@ -1,4 +1,4 @@
 if ...something...:
     x = 10
-else:
-    x = x
+#else:
+#    x = x
