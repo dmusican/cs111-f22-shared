@@ -6,16 +6,13 @@ class Car:
         self.y = y
         self.color = color
 
-
-
     def drawIt(self, window):
         carWidth = 100
         carHeight = 50
         body = Rectangle(Point(self.x, self.y),
-                         Point(self.x+carWidth, self.y+carHeight)
-
-
-
+                         Point(self.x+carWidth, self.y+carHeight))
+        body.setFill(self.color)
+        body.draw(window)
 
 def main():
     win = GraphWin("road", 500, 600)
