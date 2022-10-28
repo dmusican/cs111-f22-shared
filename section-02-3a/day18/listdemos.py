@@ -6,3 +6,4 @@ items.append("FRIDAY!!!")
 print(items)
 
 print(items + ["SATURDAY"])
+print(items)
