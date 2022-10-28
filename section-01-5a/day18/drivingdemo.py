@@ -1,5 +1,12 @@
 from graphics import *
 
+class Car:
+    def __init__(self, ......):
+
+    def drawIt(self, ......):
+
+
+
 
 def main():
     win = GraphWin("road", 500, 600)
