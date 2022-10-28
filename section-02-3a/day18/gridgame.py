@@ -1,7 +1,14 @@
-
+# BUGGY BUGGY BUGGY
 board = []
+singlerow = ['-', '-', '-']
 for row in range(5):
-    board.append(['-', '-', '-'])
+    board.append(singlerow)
+
+
+
+#board = []
+#for row in range(5):
+#    board.append(['-', '-', '-'])
 
 board[0][2] = 'Y'
 #print(board)
