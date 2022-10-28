@@ -1,4 +1,16 @@
 from graphics import *
+
+class Car:
+    def __init__(self, xToSet, yToSet, colorToSet):
+        self.x = xToSet
+        self.y = yToSet
+        self.color = colorToSet
+
+    def drawIt(self, .....):
+
+
+
+
 def main():
     win = GraphWin("road", 500, 600)
     road = Rectangle(Point(0, 200), Point(499, 400))
