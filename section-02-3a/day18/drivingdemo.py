@@ -2,9 +2,9 @@ from graphics import *
 
 class Car:
     def __init__(self, x, y, color):
-        self.x = xToSet
-        self.y = yToSet
-        self.color = colorToSet
+        self.x = x
+        self.y = y
+        self.color = color
 
     def drawIt(self, .....):
 
