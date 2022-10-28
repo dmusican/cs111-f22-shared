@@ -1,7 +1,7 @@
 from graphics import *
 
 class Car:
-    def __init__(self, xToSet, yToSet, colorToSet):
+    def __init__(self, x, y, color):
         self.x = xToSet
         self.y = yToSet
         self.color = colorToSet
