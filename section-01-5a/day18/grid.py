@@ -1,6 +1,6 @@
 
 board = []
-for i in range(3):
+for i in range(2):
     board.append(['-', '-', '-'])
 
 board[1][2] = 'Y'
