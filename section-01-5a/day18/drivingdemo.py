@@ -17,7 +17,7 @@ class Car:
         wheelOffsetX = 40
         wheelOffsetY = 45
         wheelRadius = 10
-        wheel1 = Circle(Point(self.x+wheelOffsetX,self.y+wheelOffsetY,)
+        wheel1 = Circle(Point(self.x+wheelOffsetX,self.y+wheelOffsetY),
                         wheelRadius)
         wheel1.setFill("black")
         wheel1.draw(window)
