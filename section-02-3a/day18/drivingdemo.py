@@ -12,6 +12,10 @@ class Car:
         body.setFill(self.color)
         body.draw(window)
 
+        wheel1 = Circle(Point(self.x+40, self.y+45), 10)
+        wheel1.setFill("black")
+        wheel1.draw(window)
+
 
 
 
