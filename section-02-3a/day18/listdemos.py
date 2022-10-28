@@ -4,3 +4,5 @@ for thing in items:
 
 items.append("FRIDAY!!!")
 print(items)
+
+print(items + ["SATURDAY"])
