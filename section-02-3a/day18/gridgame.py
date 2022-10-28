@@ -1,6 +1,6 @@
 
 board = []
 for row in range(5):
-    board.append(['-', '-', '-']
+    board.append(['-', '-', '-'])
 
 print(board)
