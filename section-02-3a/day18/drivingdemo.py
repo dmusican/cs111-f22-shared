@@ -17,8 +17,6 @@ class Car:
         wheel1.draw(window)
 
 
-
-
 def main():
     win = GraphWin("road", 500, 600)
     road = Rectangle(Point(0, 200), Point(499, 400))
