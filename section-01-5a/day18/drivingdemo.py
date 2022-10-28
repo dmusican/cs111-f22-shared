@@ -8,7 +8,11 @@ class Car:
 
 
 
-    def drawIt(self, ......):
+    def drawIt(self, window):
+        carWidth = 100
+        carHeight = 50
+        body = Rectangle(Point(self.x, self.y),
+                         Point(self.x+carWidth, self.y+carHeight)
 
 
 
