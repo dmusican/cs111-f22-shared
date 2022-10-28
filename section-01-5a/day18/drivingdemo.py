@@ -14,6 +14,14 @@ class Car:
         body.setFill(self.color)
         body.draw(window)
 
+        wheelOffsetX = 40
+        wheelOffsetY = 45
+        wheelRadius = 10
+        wheel1 = Circle(Point(self.x+wheelOffsetX,self.y+wheelOffsetY,)
+                        wheelRadius)
+        wheel1.setFill("black")
+        wheel1.draw(window)
+
 def main():
     win = GraphWin("road", 500, 600)
 
