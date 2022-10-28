@@ -6,7 +6,10 @@ class Car:
         self.y = y
         self.color = color
 
-    def drawIt(self, .....):
+    def drawIt(self, window):
+        body = Rectangle(Point(self.x, self.y),
+                         Point(self.x+100, self.y+50))
+        body.draw(window)
 
 
 
