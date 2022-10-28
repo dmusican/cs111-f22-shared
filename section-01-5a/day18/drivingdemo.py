@@ -8,6 +8,12 @@ def main():
     road.setFill('darkgray')
     road.draw(win)
 
+    car1 = Car(200, 300, color_rgb(40, 150, 23))
+    car1.drawIt(win)
+
+    car2 = Car(400, 300, color_rgb(230, 150, 40))
+    car2.drawIt(win)
+
 
     input("Look at me!!!!!")
 
