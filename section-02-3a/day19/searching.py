@@ -29,7 +29,7 @@ inpfile.close()
 print("Linear")
 for i in range(10):
     linearSearch(words, 'zymometer')
-    linearSearch(words, 'blahblahblah'))
+    linearSearch(words, 'blahblahblah')
 
 print("Binary")
 for i in range(10):
