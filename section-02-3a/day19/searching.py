@@ -33,7 +33,7 @@ for i in range(10):
 
 print("Binary")
 for i in range(10):
-    binarySearch(words, 'zymometer'))
-    binarySearch(words, 'blahblahblah'))
+    binarySearch(words, 'zymometer')
+    binarySearch(words, 'blahblahblah')
 
 print("Done")
