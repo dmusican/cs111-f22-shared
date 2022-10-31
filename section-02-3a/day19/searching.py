@@ -26,7 +26,7 @@ for word in inpfile:
     words.append(word.strip())
 inpfile.close()
 
-scale = 100
+scale = 500
 print("Linear")
 for i in range(scale):
     linearSearch(words, 'zymometer')
