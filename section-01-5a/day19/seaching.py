@@ -17,6 +17,8 @@ def binarySearch(items, target):
         else:
             high = mid - 1
 
+    return -1    # didn't find it
+
 # Get words into a list
 words = []
 inpfile = open('twl06clean.txt', 'r')
