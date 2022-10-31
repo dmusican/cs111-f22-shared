@@ -30,5 +30,5 @@ inpfile.close()
 print(linearSearch(words, 'zymometer'))
 print(linearSearch(words, 'blahblahblah'))
 
-print(binary(words, 'zymometer'))
-print(binary(words, 'blahblahblah'))
+print(binarySearch(words, 'zymometer'))
+print(binarySearch(words, 'blahblahblah'))
