@@ -13,3 +13,4 @@ inpfile.close()
 
 
 print(linearSearch(words, 'zymometer'))
+print(linearSearch(words, 'blahblahblah'))
