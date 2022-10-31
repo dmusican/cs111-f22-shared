@@ -4,6 +4,18 @@ def linearSearch(items, target):
             return i   # location where I found it
     return -1    # -1 means didn't find
 
+def binarySearch(items, target):
+    low = 0
+    high = len(items)-1
+
+    while ....... :
+        mid = (low + high)//2
+        if items[mid] == target:
+            return mid
+        elif items[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
 
 # Get words into a list
 words = []
