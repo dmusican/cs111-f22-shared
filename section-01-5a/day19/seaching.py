@@ -26,7 +26,12 @@ for word in inpfile:
     words.append(word.strip())
 inpfile.close()
 
-print(linearSearch(words, 'zymometer'))
-print(linearSearch(words, 'zymometushlkfhgf'))
-print(binarySearch(words, 'zymometer'))
-print(binarySearch(words, 'zymometushlkfhgf'))
+print("Linear")
+for i in range(100):
+    print(linearSearch(words, 'zymometer'))
+    print(linearSearch(words, 'zymometushlkfhgf'))
+print("Binary")
+for i in range(100):
+    print(binarySearch(words, 'zymometer'))
+    print(binarySearch(words, 'zymometushlkfhgf'))
+print("Done")
