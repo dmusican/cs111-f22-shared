@@ -4,4 +4,5 @@ for word in inpfile:
     words.append(word.strip())
 inpfile.close()
 
-print(words)
+
+print(linearSearch(words, 'zymometer'))
