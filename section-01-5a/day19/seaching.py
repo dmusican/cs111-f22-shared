@@ -24,14 +24,15 @@ words = []
 inpfile = open('twl06clean.txt', 'r')
 for word in inpfile:
     words.append(word.strip())
-inpfile.close()
 
+inpfile.close()
+scale = 500
 print("Linear")
-for i in range(100):
+for i in range(scale):
     linearSearch(words, 'zymometer')
     linearSearch(words, 'zymometushlkfhgf')
 print("Binary")
-for i in range(100):
+for i in range(scale):
     binarySearch(words, 'zymometer')
     binarySearch(words, 'zymometushlkfhgf')
 print("Done")
