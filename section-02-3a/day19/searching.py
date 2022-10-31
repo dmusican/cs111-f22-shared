@@ -28,10 +28,12 @@ inpfile.close()
 
 print("Linear")
 for i in range(10):
-    print(linearSearch(words, 'zymometer'))
-    print(linearSearch(words, 'blahblahblah'))
+    linearSearch(words, 'zymometer'))
+    linearSearch(words, 'blahblahblah'))
 
 print("Binary")
 for i in range(10):
-    print(binarySearch(words, 'zymometer'))
-    print(binarySearch(words, 'blahblahblah'))
+    binarySearch(words, 'zymometer'))
+    binarySearch(words, 'blahblahblah'))
+
+print("Done")
