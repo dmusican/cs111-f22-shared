@@ -26,13 +26,14 @@ for word in inpfile:
     words.append(word.strip())
 inpfile.close()
 
+scale = 100
 print("Linear")
-for i in range(10):
+for i in range(scale):
     linearSearch(words, 'zymometer')
     linearSearch(words, 'blahblahblah')
 
 print("Binary")
-for i in range(10):
+for i in range(scale):
     binarySearch(words, 'zymometer')
     binarySearch(words, 'blahblahblah')
 
