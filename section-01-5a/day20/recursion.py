@@ -36,11 +36,11 @@ def checkSorted(items):
 
 def binarySearch(items, target):
     if len(items) == 0:
-        return -1    # didn't find it
+        return False    # didn't find it
 
     mid = len(items) // 2
     if items[mid] == target:
-        return mid
+        return True
     elif items[mid] < target:
         return binarySearch(items[mid+1:], target)
     else:
