@@ -22,3 +22,5 @@ def sumup(items):
         return items[0]   # first item
     else:
         return items[0] + sumup(items[1:])
+
+print(sumup([2, 9, 4, 3, 7]))
