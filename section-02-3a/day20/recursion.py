@@ -5,8 +5,8 @@ def fact(n):
         return n * fact(n-1)
 
 
-print(fact(5))
-print(fact(7))
+#print(fact(5))
+#print(fact(7))
 
 def mystery(n):
     if n == 1:
