@@ -34,3 +34,6 @@ def checkSorted(items):
         return True
     else:
         return checkSorted(items[1:]) and items[0] < items[1]
+
+print(checkSorted([3, 7, 11, 18, 21]))
+print(checkSorted([12, 7, 11, 18, 21]))
