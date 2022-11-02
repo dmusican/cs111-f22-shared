@@ -46,5 +46,5 @@ def binarySearch(items, target):
     else:
         return binarySearch(items[:mid], target)
 
-print(binarySearch([2, 9, 12, 15, 18]), 15)
-print(binarySearch([2, 9, 12, 15, 18]), 17)
+print(binarySearch([2, 9, 12, 15, 18], 15))
+print(binarySearch([2, 9, 12, 15, 18], 17))
