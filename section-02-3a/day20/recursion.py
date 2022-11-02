@@ -23,3 +23,6 @@ def sumup(items):
         return items[0]   # first item
     else:
         return items[0] + sumup(items[1:])
+
+
+print(sumup([9, 2, 4, 3]))
