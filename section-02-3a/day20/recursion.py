@@ -13,3 +13,5 @@ def mystery(n):
         return 2
     else:
         return 7 + mystery(n-1)
+
+print(mystery(3))
