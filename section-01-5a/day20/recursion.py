@@ -23,4 +23,13 @@ def sumup(items):
     else:
         return items[0] + sumup(items[1:])
 
-print(sumup([2, 9, 4, 3, 7]))
+#print(sumup([2, 9, 4, 3, 7]))
+
+# Check to see if a list is sorted
+# return True or False
+def checkSorted(items):
+    if len(items) == 1:
+        return True
+    else:
+        return items[0] < items[1] and \
+               checkSorted(items[1:])
