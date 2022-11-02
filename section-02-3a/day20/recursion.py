@@ -38,17 +38,17 @@ def checkSorted(items):
 print(checkSorted([3, 7, 11, 18, 21]))
 print(checkSorted([12, 7, 11, 18, 21]))
 
-def binarySearch(items, target):
-    low = 0
-    high = len(items) - 1
+def binarySearch(items, target, low, high):
 
     while low <= high:
         mid = (low + high)//2
         if target == items[mid]:
             return mid
         elif items[mid] < target:
-            low = mid + 1
+            return binarySearch(items, target, mid+1, high)
         else:
-            high = mid - 1
+            return binarySearch(items, target, low, mid-1)
 
     return -1
+
+binarySearch([1, 3, 6, 7, 11, 21, 23], 11, 0, 6)
