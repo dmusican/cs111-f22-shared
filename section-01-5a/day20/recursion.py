@@ -33,3 +33,18 @@ def checkSorted(items):
     else:
         return items[0] < items[1] and \
                checkSorted(items[1:])
+
+def binarySearch(items, target):
+    if len(items) == 0:
+        return -1    # didn't find it
+
+    mid = len(items) // 2
+    if items[mid] == target:
+        return mid
+    elif items[mid] < target:
+        return binarySearch(items[mid+1:], target)
+    else:
+        return binarySearch(items[:mid], target)
+
+print(binarySearch([2, 9, 12, 15, 18]), 15)
+print(binarySearch([2, 9, 12, 15, 18]), 17)
