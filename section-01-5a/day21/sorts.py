@@ -2,7 +2,7 @@ import random
 
 def selectionSort(items):
     # i is the position we will swap into
-    for i in range(len(items)):
+    for i in range(len(items)-1):
         # Find the smallest value in the remainder of
         # list starting at position i (and where it is)
         smallestPos = i
