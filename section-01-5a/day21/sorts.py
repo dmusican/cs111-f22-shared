@@ -15,8 +15,6 @@ def selectionSort(items):
             (items[smallestPost], items[i])
 
 
-
-
 def shuffle(items):
     random.seed(55057)
     for i in range(1000000):
