@@ -1,29 +1,5 @@
 import random
 
-def selectionSort(items):   
-    for i in range(len(items)):
-        smallestPos = i
-        for j in range(i+1, len(items)):
-            if items[j] < items[smallestPos]:
-                smallestPos = j
-        (items[smallestPos], items[i]) = (items[i], items[smallestPos])
-
-
-def insertionSort(items):
-    for i in range(1, len(items)):
-        j = i
-        while j > 0 and items[j-1] > items[j]:
-            (items[j], items[j-1]) = (items[j-1], items[j])
-            j -= 1
-
-def insertionSortOptimized(items):
-    for i in range(1, len(items)):
-        j = i
-        swapVal = items[i]
-        while j > 0 and items[j-1] > swapVal:
-            (items[j], items[j-1]) = (items[j-1], items[j])
-            j -= 1
-        items[j] = swapVal
 
 def shuffle(items):
     random.seed(55057)
