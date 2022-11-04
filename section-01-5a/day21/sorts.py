@@ -32,7 +32,7 @@ def main():
     print("Original list (portion):")
     print(items[:100])
     print("Sorted items (portion):")
-    #selectionSort(items)
+    selectionSort(items)
     print(items[:100])
 
     for i in range(len(items)):
