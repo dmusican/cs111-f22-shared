@@ -14,6 +14,17 @@ def selectionSort(items):
         (items[i], items[smallestPos]) = \
             (items[smallestPos], items[i])
 
+def insertionSort(items):
+    # i is the position of the value we will
+    # insert into the sorted list
+    for i in range(1, len(items)):
+        j = i
+        while j > 0 and items[j] < items[j-1]:
+            (items[j], items[j-1]) = \
+                (items[j-1], items[j])
+            j = j-1
+
+
 
 def shuffle(items):
     random.seed(55057)
