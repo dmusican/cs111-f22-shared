@@ -12,7 +12,7 @@ def selectionSort(items):
         # Swap items at locations i and smallestPos
         # (x, y) = (y, x)
         (items[i], items[smallestPos]) = \
-            (items[smallestPost], items[i])
+            (items[smallestPos], items[i])
 
 
 def shuffle(items):
