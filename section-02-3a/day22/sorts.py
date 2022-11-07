@@ -1,3 +1,4 @@
+import random
 
 def shuffle(items):
     random.seed(55057)
