@@ -13,5 +13,6 @@ for row in datareader:
         countByState[state] = 0
 
     countByState[state] += 1
+    # countByState[state] = countByState[state] + 1
 
 print(countByState)
