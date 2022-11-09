@@ -8,7 +8,7 @@ for i in range(size):
 
 matches = 0
 for i in range(size):
-    if i in dict:     # if it is a key
+    if i in itemsdict:     # if it is a key
         matches += 1
 print(matches)
 
