@@ -5,7 +5,7 @@ datareader = csv.DictReader(csvfile)
 
 for row in datareader:
     #print(row)
-    print(row['t_state'])
+    print(row['t_state'], row['county'])
     print()
 
 csvfile.close()
