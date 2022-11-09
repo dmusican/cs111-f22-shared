@@ -17,7 +17,7 @@ for row in datareader:
 
     if state not in countByState:
         countByState[state] = 0
-   countByState[state] += 1
+    countByState[state] += 1
 
 csvfile.close()
 
