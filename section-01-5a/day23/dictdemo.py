@@ -10,3 +10,6 @@ onecard['dmusicant'] = onecard['dmusicant'] + 10
 print(onecard['dmusicant'])
 
 onecard['dmusican'] = 72
+
+print(onecard['dmusicant'])
+print(onecard)
