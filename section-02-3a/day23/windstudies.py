@@ -4,7 +4,7 @@ csvfile = open('wind_turbines.csv', 'r')
 datareader = csv.DictReader(csvfile)
 
 # Count number of wind turbines in each state
-countByState = {}
+countByState = {}   # state: count
 
 for row in datareader:
     #print(row)
