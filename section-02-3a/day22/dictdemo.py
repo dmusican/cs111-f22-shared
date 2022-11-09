@@ -11,3 +11,4 @@ print(onecard['wshakesp'])
 onecard['jondich'] = 99
 print(onecard['jondich'])
 onecard[23.4] = 100   # really bad style
+print(onecard[23.4]) # again terrible
