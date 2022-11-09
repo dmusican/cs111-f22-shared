@@ -14,3 +14,4 @@ onecard[23.4] = 100   # really bad style
 print(onecard[23.4]) # again terrible
 #onecard[ [1,2,3,4,5] ] = 98     error
 onecard[('ryan', 'son')] = 1000
+print(onecard)
