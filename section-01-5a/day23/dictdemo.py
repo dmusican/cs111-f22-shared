@@ -4,3 +4,5 @@ print(onecard['dmusicant'])
 print(onecard['wshakesp'])
 onecard['schiller'] = 98.32
 print(onecard)
+onecard['dmusicant'] = 50.19
+print(onecard['dmusicant'])
