@@ -8,3 +8,5 @@ print(onecard)
 print(onecard['dmusicant'])
 onecard['dmusicant'] = onecard['dmusicant'] + 10
 print(onecard['dmusicant'])
+
+onecard['dmusican'] = 72
