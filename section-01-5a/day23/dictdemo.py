@@ -13,3 +13,6 @@ onecard['dmusican'] = 72
 
 print(onecard['dmusicant'])
 print(onecard)
+
+print(onecard.keys())
+print(onecard.values())
