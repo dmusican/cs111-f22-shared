@@ -4,7 +4,14 @@ csvfile = open('wind_turbines.csv', 'r')
 datareader = csv.DictReader(csvfile)
 
 # Find how many wind turbines there are in each state
+countByState = {}
 
 for row in datareader:
     # row... is a DICTIONARY!!!!!
-    print(row['t_state'])
+    state = row['t_state']
+    if state not in countByState:
+        countByState[state] = 0
+
+    countByState[state] += 1
+
+print(countByState)
