@@ -1,7 +1,8 @@
 import csv
 
 csvfile = open('wind_turbines.csv', 'r')
-for line in csvfile:
-    print(line)
+datareader = csv.DictReader(csvfile)
+for row in datareader:
+    print(row)
 
 csvfile.close()
