@@ -10,10 +10,14 @@ for row in datareader:
     #print(row)
     #print(row['t_state'], row['t_county'])
     state = row['t_state']
+    #if state not in countByState:
+    #    countByState[state] = 1
+    #else:
+    #    countByState[state] += 1
+
     if state not in countByState:
-        countByState[state] = 1
-    else:
-        countByState[state] += 1
+        countByState[state] = 0
+   countByState[state] += 1
 
 csvfile.close()
 
