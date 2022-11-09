@@ -1,6 +1,6 @@
 # Searching in dictionaries is faster
 # than lists
-size = 20000
+size = 40000
 print("Trying dictionary")
 dict = {}
 for i in range(size):
