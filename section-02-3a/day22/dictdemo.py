@@ -16,3 +16,5 @@ print(onecard[23.4]) # again terrible
 onecard[('ryan', 'son')] = 1000
 print(onecard)
 # In practice, all of your keys should be the same type
+print(onecard.keys())
+print(onecard.values())
