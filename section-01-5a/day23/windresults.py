@@ -8,7 +8,7 @@ countByState = {}
 
 for row in datareader:
     # row... is a DICTIONARY!!!!!
-    state = row['t_county']
+    state = row['t_state']
     if state not in countByState:
         countByState[state] = 0
 
