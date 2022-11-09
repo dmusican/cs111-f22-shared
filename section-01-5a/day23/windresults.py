@@ -5,4 +5,4 @@ datareader = csv.DictReader(csvfile)
 
 for row in datareader:
     # row... is a DICTIONARY!!!!!
-    print(row)
+    print(row['t_state'])
