@@ -5,5 +5,6 @@ datareader = csv.DictReader(csvfile)
 
 for row in datareader:
     print(row)
+    print()
 
 csvfile.close()
