@@ -10,3 +10,4 @@ print(onecard['dmusicant'])
 print(onecard['wshakesp'])
 onecard['jondich'] = 99
 print(onecard['jondich'])
+onecard[23.4] = 100   # really bad stle
