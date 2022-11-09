@@ -1,5 +1,5 @@
 
-size = 2000
+size = 20000
 
 print("Trying dictionary")
 itemsdict = {}
