@@ -25,5 +25,6 @@ for state in countByState:
 
 results = sorted(countList)
 
+outfile = open('results.txt', 'w')
 for pair in results:
-    print(pair[1], pair[0])
+    outfile.write(pair[1] + " " + pair[0])
