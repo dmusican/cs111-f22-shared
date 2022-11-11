@@ -22,18 +22,3 @@ for state in countByState:
 countList = []
 for state in countByState:
     countList.append(  (state, countByState[state])   )
-
-# Want to sort, so copy into a list
-countList = []
-for state in countByState:
-    countList.append(  (state, countByState[state])   )
-
-# Want to sort, so copy into a list
-countList = []
-for state in countByState:
-    countList.append(  (state, countByState[state])   )
-
-# Want to sort, so copy into a list
-countList = []
-for state in countByState:
-    countList.append(  (state, countByState[state])   )
