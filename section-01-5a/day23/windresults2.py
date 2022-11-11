@@ -22,3 +22,7 @@ for state in countByState:
 countList = []
 for state in countByState:
     countList.append(  (state, countByState[state])   )
+
+
+
+print(countList)
