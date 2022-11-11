@@ -21,7 +21,7 @@ for row in datareader:
 # Want to sort, so copy into a list
 countList = []
 for state in countByState:
-    countList.append(  (state, countByState[state])   )
+    countList.append(  (countByState[state], state)   )
 
 results = sorted(countList)
 
