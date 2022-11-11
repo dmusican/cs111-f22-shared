@@ -29,3 +29,5 @@ print(countList)
 results = sorted(countList)
 print('--------------------')
 print(results)
+for stateCountPair in results:
+    print(stateCountPair)
