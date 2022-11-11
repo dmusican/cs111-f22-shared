@@ -14,5 +14,6 @@ for row in datareader:
 
 csvfile.close()
 
-for state in countByState:
-    print(state, countByState[state])
+print(countByState)
+#for state in countByState:
+#    print(state, countByState[state])
