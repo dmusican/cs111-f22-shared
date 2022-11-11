@@ -27,5 +27,5 @@ results = sorted(countList)
 
 outfile = open('results.txt', 'w')
 for pair in results:
-    outfile.write(pair[1] + " " + pair[0])
+    outfile.write(str(pair[1]) + " " + str(pair[0]))
 outfile.close()
