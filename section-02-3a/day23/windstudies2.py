@@ -27,5 +27,5 @@ results = sorted(countList, reverse=True)
 # Write to a file
 outfile = open('results.txt', 'w')
 for stateCountPair in results:
-    outfile.write(str(stateCountPair[1]) + " " + stateCountPair[0])
+    outfile.write(str(stateCountPair[1]) + " " + str(stateCountPair[0]))
 outfile.close()
