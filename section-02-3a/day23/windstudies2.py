@@ -31,6 +31,7 @@ results = sorted(countList, reverse=True)
 #                   + str(stateCountPair[0]) + "\n")
 # outfile.close()
 
+# Use outfile within this "with" code, and automatically close
 with open('results.txt', 'w') as outfile:
     for stateCountPair in results:
         outfile.write(str(stateCountPair[1]) + " " \
