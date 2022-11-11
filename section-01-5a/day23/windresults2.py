@@ -17,3 +17,23 @@ for row in datareader:
 #print(countByState)
 for state in countByState:
     print(state, countByState[state])
+
+# Want to sort, so copy into a list
+countList = []
+for state in countByState:
+    countList.append(  (state, countByState[state])   )
+
+# Want to sort, so copy into a list
+countList = []
+for state in countByState:
+    countList.append(  (state, countByState[state])   )
+
+# Want to sort, so copy into a list
+countList = []
+for state in countByState:
+    countList.append(  (state, countByState[state])   )
+
+# Want to sort, so copy into a list
+countList = []
+for state in countByState:
+    countList.append(  (state, countByState[state])   )
