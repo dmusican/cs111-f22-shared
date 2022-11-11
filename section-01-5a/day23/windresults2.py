@@ -17,4 +17,4 @@ for row in datareader:
 
     break
 
-print(countByState)
+#print(countByState)
