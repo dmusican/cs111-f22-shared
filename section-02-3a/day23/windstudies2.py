@@ -6,6 +6,7 @@ datareader = csv.DictReader(csvfile)
 
 for cat in datareader:
     print(cat)
+    break
 
 
 
