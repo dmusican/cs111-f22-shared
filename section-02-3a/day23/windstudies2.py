@@ -25,3 +25,7 @@ for state in countByState:
 
 print('--------------------')
 print(countList)
+
+results = sorted(countList)
+print('--------------------')
+print(results)
