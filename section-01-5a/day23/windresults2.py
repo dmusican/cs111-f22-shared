@@ -26,4 +26,4 @@ for state in countByState:
 results = sorted(countList)
 
 for pair in results:
-    print(pair[0], pair[1])
+    print(pair[1], pair[0])
