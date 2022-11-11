@@ -17,4 +17,5 @@ csvfile.close()
 #for state in countByState:
 #    print(state, countByState[state])
 
+print(countByState)
 # Sort results by state
