@@ -23,6 +23,6 @@ countList = []
 for state in countByState:
     countList.append(  (state, countByState[state])   )
 
+results = sorted(countList)
 
-
-print(countList)
+print(results)
