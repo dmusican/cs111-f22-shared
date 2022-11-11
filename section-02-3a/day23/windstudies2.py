@@ -17,17 +17,11 @@ csvfile.close()
 #for state in countByState:
 #    print(state, countByState[state])
 
-print(countByState)
 # Sort results by state
 countList = []
 for state in countByState:
     countList.append( (state, countByState[state])  )
 
-print('--------------------')
-print(countList)
-
 results = sorted(countList)
-print('--------------------')
-print(results)
 for stateCountPair in results:
     print(stateCountPair)
