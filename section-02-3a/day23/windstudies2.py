@@ -20,6 +20,11 @@ for state in countByState:
     countList.append( (countByState[state], state)  )
 
 results = sorted(countList, reverse=True)
-print(results)
+#print(results)
+#for stateCountPair in results:
+#    print(stateCountPair[1], stateCountPair[0])
+
+# Write to a file
+outfile = open('results.txt', 'w')
 for stateCountPair in results:
-    print(stateCountPair[1], stateCountPair[0])
+    outfile.write(stateCountPair[1] + " " + stateCountPair[0])
