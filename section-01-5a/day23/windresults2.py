@@ -7,8 +7,6 @@ datareader = csv.DictReader(csvfile)
 countByState = {}
 
 for row in datareader:
-    print(row)
-    print(type(row['faa_ors']))
     state = row['t_state']
     if state not in countByState:
         countByState[state] = 0
@@ -16,6 +14,5 @@ for row in datareader:
     countByState[state] += 1
     # countByState[state] = countByState[state] + 1
 
-    break
 
 #print(countByState)
