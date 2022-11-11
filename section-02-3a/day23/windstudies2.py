@@ -17,7 +17,7 @@ csvfile.close()
 # Sort results by state
 countList = []
 for state in countByState:
-    countList.append( (state, countByState[state])  )
+    countList.append( (countByState[state], state)  )
 
 results = sorted(countList)
 for stateCountPair in results:
