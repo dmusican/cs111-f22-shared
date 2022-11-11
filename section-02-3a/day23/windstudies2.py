@@ -20,5 +20,6 @@ for state in countByState:
     countList.append( (countByState[state], state)  )
 
 results = sorted(countList)
+print(results)
 for stateCountPair in results:
     print(stateCountPair[0], stateCountPair[1])
