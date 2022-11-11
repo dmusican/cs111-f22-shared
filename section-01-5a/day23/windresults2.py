@@ -15,4 +15,4 @@ for row in datareader:
     # countByState[state] = countByState[state] + 1
 
 
-#print(countByState)
+print(countByState)
