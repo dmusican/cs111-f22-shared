@@ -25,4 +25,5 @@ for state in countByState:
 
 results = sorted(countList)
 
-print(results)
+for pair in results:
+    print(pair)
