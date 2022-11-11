@@ -1,4 +1,5 @@
-state,countAR,1
+state,count
+AR,1
 DE,1
 FL,1
 GU,1
