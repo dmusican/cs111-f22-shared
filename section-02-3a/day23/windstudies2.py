@@ -21,5 +21,5 @@ for state in countByState:
 
 results = sorted(countList)
 print(results)
-#for stateCountPair in results:
+for stateCountPair in results:
     print(stateCountPair[0], stateCountPair[1])
