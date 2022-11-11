@@ -23,4 +23,5 @@ countList = []
 for state in countByState:
     countList.append( (state, countByState[state])  )
 
+print('--------------------')
 print(countList)
