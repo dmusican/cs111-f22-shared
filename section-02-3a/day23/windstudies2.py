@@ -19,7 +19,7 @@ countList = []
 for state in countByState:
     countList.append( (countByState[state], state)  )
 
-results = sorted(countList)
+results = sorted(countList, reverse=True)
 print(results)
 for stateCountPair in results:
     print(stateCountPair[1], stateCountPair[0])
