@@ -8,12 +8,13 @@ countByState = {}
 
 for row in datareader:
     print(row)
-    print('--------')
     state = row['t_state']
     if state not in countByState:
         countByState[state] = 0
 
     countByState[state] += 1
     # countByState[state] = countByState[state] + 1
+
+    break
 
 print(countByState)
