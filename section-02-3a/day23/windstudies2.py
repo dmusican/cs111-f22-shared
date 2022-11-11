@@ -28,3 +28,4 @@ results = sorted(countList, reverse=True)
 outfile = open('results.txt', 'w')
 for stateCountPair in results:
     outfile.write(stateCountPair[1] + " " + stateCountPair[0])
+outfile.close()
