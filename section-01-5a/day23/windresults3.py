@@ -20,3 +20,5 @@ for state in yearsByState:
     for year in yearList:
         count = count + 1
         total = total + year
+    average = total / count
+    print(state, average)
