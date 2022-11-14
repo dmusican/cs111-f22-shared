@@ -7,6 +7,7 @@ What are examples of computing (programming) being used for good?
 
 What are examples of computing (programming) being used for bad?
 - planting viruses (or is it good against villains?)
+- coding missle trajectories (what if they blow up other missles?)
 
 
 
