@@ -25,3 +25,4 @@ What are examples of computing (programming) being used ambiguously?
 - data mining (other people's information)
 - surveillance
 - addictive video game
+- AI generated art
