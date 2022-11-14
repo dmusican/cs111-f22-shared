@@ -22,3 +22,4 @@ How can computing (programming) be used ambiguously?
 - hack into grading system for someone who struggled
 - doing something fun (personal, eg sports stats)
 - data analysis
+- gaining wealth through stocks, advertising (data collection)
