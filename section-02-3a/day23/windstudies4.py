@@ -1,3 +1,4 @@
+import csv
 
 # Find average year of wind turbine construction per state
 with open('wind_turbines.csv', 'r') as csvfile:
