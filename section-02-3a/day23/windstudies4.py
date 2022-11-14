@@ -6,4 +6,10 @@ with open('wind_turbines.csv', 'r') as csvfile:
     datareader = csv.DictReader(csvfile)
 
     for row in datareader:
-        print(row['t_state'], row['p_year'])
+        state = row['t_state']
+        year = row['p_year']
+        if state not in yearByState:
+            yearByState[state] = []
+        yearByState[state].append(year)
+
+print(yearByState['MN'])
