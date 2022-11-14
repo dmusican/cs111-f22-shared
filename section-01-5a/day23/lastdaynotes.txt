@@ -4,6 +4,7 @@ What are examples of computing (programming) being used for good?
 - cybersecurity (self protection)
 - making a website
 - financial capabilities
+- research / science
 
 
 
