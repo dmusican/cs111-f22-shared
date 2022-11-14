@@ -15,6 +15,7 @@ What are examples of computing (programming) being used for bad?
 - planting viruses (or is it good against villains?)
 - coding missle trajectories (what if they blow up other missles?)
 - bank data stealing personal info
+- not using info responsibility (even if you had permission)
 
 What are examples of computing (programming) being used ambiguously?
 - facial recognition (ambig / dangerous)
