@@ -15,11 +15,10 @@ What are examples of computing (programming) being used for bad?
 - coding missle trajectories (what if they blow up other missles?)
 
 
-
-
 What are examples of computing (programming) being used ambiguously?
 - facial recognition (ambig / dangerous)
 - protecting US against nuclear threats (surveillance)
 - hacking into an oil company
 - good intentions that cause mayhem (DDos campus email server)
 - advertising (personal info)
+- data mining (other people's information)
