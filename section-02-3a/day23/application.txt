@@ -14,6 +14,7 @@ How can computing (programming) be used for bad?
 - hack into servers, attacks
 - getting personal info
 - spyware
+- misinformation (esp in elections)
 
 
 
