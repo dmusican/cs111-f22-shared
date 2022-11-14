@@ -24,3 +24,4 @@ What are examples of computing (programming) being used ambiguously?
 - advertising (personal info)
 - data mining (other people's information)
 - surveillance
+- addictive video game
