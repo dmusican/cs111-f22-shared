@@ -15,6 +15,7 @@ How can computing (programming) be used for bad?
 - getting personal info
 - spyware
 - misinformation (esp in elections)
+- investment  / upholding capitalism
 
 
 How can computing (programming) be used ambiguously?
@@ -24,3 +25,4 @@ How can computing (programming) be used ambiguously?
 - data analysis
 - gaining wealth through stocks, advertising (data collection)
 - uploading personal information
+- Facebook
