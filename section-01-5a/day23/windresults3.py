@@ -6,4 +6,4 @@ with open('wind_turbines.csv', 'r') as csvfile:
     for row in datareader:
         state = row['t_state']
         year = row['p_year']
-        print(state, years)
+        print(state, year)
