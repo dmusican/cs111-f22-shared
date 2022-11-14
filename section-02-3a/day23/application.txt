@@ -2,7 +2,7 @@
 How can computing (programming) be used for good?
 
 - motivation (count of dishes / chores / etc)
-
+- stats for climate change and promoting
 
 
 
@@ -16,3 +16,4 @@ How can computing (programming) be used for bad?
 How can computing (programming) be used ambiguously?
 
 - hack into grading system for someone who struggled
+- doing something fun (personal, eg sports stats)
