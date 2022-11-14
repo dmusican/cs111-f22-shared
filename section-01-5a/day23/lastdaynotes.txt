@@ -5,7 +5,9 @@ What are examples of computing (programming) being used for good?
 - making a website
 - financial capabilities
 - research / science
-
+- healthcare
+- 3D modeling
+- track weather patterns
 
 
 What are examples of computing (programming) being used for bad?
