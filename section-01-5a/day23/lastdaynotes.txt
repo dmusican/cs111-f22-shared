@@ -27,4 +27,10 @@ What are examples of computing (programming) being used ambiguously?
 - addictive video game
 - AI generated art
 
-What do you do when your job tasks you to build something you think is harmful?
+What do you do when your job asks you to build something you think is harmful?
+- approach whoever asks with reasoning
+- bake in user warnings
+- pass
+- find a new job
+- bake in a self-destruct / bug that can't be fixed
+- vote
