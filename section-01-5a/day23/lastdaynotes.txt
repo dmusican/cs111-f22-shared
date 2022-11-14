@@ -26,3 +26,5 @@ What are examples of computing (programming) being used ambiguously?
 - surveillance
 - addictive video game
 - AI generated art
+
+What do you do when employed to build something you think is harmful?
