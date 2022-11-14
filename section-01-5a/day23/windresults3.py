@@ -11,3 +11,5 @@ with open('wind_turbines.csv', 'r') as csvfile:
             yearsByState[state] = []
 
         yearsByState[state].append(year)
+
+print(yearsByState['MN'])
