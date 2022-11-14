@@ -17,3 +17,4 @@ What are examples of computing (programming) being used ambiguously?
 - protecting US against nuclear threats (surveillance)
 - hacking into an oil company
 - good intentions that cause mayhem (DDos campus email server)
+- advertising
