@@ -18,6 +18,7 @@ for state in yearsByState:
     total = 0
     count = 0
     for year in yearList:
+        # Some turbines are missing year
         if year != '':
             count = count + 1
             total = total + int(year)
