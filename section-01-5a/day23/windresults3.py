@@ -19,6 +19,7 @@ for state in yearsByState:
     count = 0
     for year in yearList:
         count = count + 1
+        print("Year is", year)
         total = total + int(year)
     average = total / count
     print(state, average)
