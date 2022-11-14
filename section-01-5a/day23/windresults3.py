@@ -9,6 +9,8 @@ with open('wind_turbines.csv', 'r') as csvfile:
         #print(state, year)
 
 
+with open('wind_turbines.csv', 'r') as csvfile:
+    datareader = csv.DictReader(csvfile)
     for row in datareader:
         state = row['t_state']
         year = row['p_year']
