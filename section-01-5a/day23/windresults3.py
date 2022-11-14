@@ -12,4 +12,11 @@ with open('wind_turbines.csv', 'r') as csvfile:
 
         yearsByState[state].append(year)
 
-print(yearsByState['FL'])
+# Average years for each state
+for state in yearsByState:
+    yearList = yearsByState[state]
+    total = 0
+    count = 0
+    for year in yearList:
+        count = count + 1
+        total = total + year
