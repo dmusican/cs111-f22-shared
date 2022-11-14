@@ -19,8 +19,8 @@ for state in yearByState:
     total = 0
     count = 0
     for year in yearList:
-        print(year)
-        total = total + int(year)
-        count = count + 1
+        if year != '':
+            total = total + int(year)
+            count = count + 1
     average = total / count
     print(state, average)
