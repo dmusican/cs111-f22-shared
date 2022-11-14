@@ -12,4 +12,14 @@ with open('wind_turbines.csv', 'r') as csvfile:
             yearByState[state] = []
         yearByState[state].append(year)
 
-print(yearByState['FL'])
+
+# Determine count and average for each state
+for state in yearByState:
+    yearList = yearByState[state]
+    total = 0
+    count = 0
+    for year in yearList:
+        total = total + year
+        count = count + 1
+    average = total / count
+    print(state, average)
