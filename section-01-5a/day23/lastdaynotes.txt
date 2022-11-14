@@ -1,6 +1,6 @@
 
 What are examples of computing (programming) being used for good?
-
+- putting fossils together
 
 
 
@@ -11,3 +11,6 @@ What are examples of computing (programming) being used for bad?
 
 
 What are examples of computing (programming) being used ambiguously?
+- facial recognition (ambig / dangerous)
+- protecting US against nuclear threats (surveillance)
+- hacking into an oil company
