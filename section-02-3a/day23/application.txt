@@ -5,6 +5,7 @@ How can computing (programming) be used for good?
 - stats for climate change and promoting
 - connections with people (social media)
 - humanitarian aid data analysis
+- medical tech, public health
 
 
 
