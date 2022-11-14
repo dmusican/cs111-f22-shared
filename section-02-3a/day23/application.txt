@@ -6,7 +6,7 @@ How can computing (programming) be used for good?
 - connections with people (social media)
 - humanitarian aid data analysis
 - medical tech, public health
-
+- see cat pictures on internet
 
 
 How can computing (programming) be used for bad?
@@ -15,8 +15,6 @@ How can computing (programming) be used for bad?
 - getting personal info
 - spyware
 - misinformation (esp in elections)
-
-
 
 
 How can computing (programming) be used ambiguously?
