@@ -1,6 +1,7 @@
 
 What are examples of computing (programming) being used for good?
 - putting fossils together
+- cybersecurity (self protection)
 
 
 
@@ -14,3 +15,4 @@ What are examples of computing (programming) being used ambiguously?
 - facial recognition (ambig / dangerous)
 - protecting US against nuclear threats (surveillance)
 - hacking into an oil company
+- good intentions that cause mayhem (DDos campus email server)
