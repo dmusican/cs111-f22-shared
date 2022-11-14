@@ -25,3 +25,4 @@ How can computing (programming) be used ambiguously?
 - doing something fun (personal, eg sports stats)
 - data analysis
 - gaining wealth through stocks, advertising (data collection)
+- uploading personal information
